@@ -7,7 +7,7 @@ import com.hexaware.simplyfly.entities.Flight;
 public interface IFlightService {
 
 	Flight addFlight(Long ownerId, Flight flight);
-    Flight updateFlight(Long flightId, Flight flight);
+	int updateCabinBaggageLimit(int newLimit, Long flightId);
     Flight getFlightById(Long flightId);
     List<Flight> getAllFlights();
     void deleteFlight(Long flightId);

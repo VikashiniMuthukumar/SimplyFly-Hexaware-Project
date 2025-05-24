@@ -6,42 +6,44 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.hexaware.simplyfly.entities.Flight;
+import com.hexaware.simplyfly.entities.FlightOwner;
+import com.hexaware.simplyfly.repositories.FlightOwnerRepository;
 import com.hexaware.simplyfly.repositories.FlightRepository;
 
+import jakarta.transaction.Transactional;
+
+@Transactional
 @Service
-public class FlightServiceImpl implements IFlightService{
+public class FlightServiceImpl implements IFlightService {
 
 	@Autowired
-	FlightRepository repo;
-	
+	FlightRepository flightrepo;
+
+	@Autowired
+	FlightOwnerRepository flightOwnerRepo;
+
 	@Override
 	public Flight addFlight(Long ownerId, Flight flight) {
-		// TODO Auto-generated method stub
-		return null;
+		return flightrepo.save(flight);
 	}
 
 	@Override
-	public Flight updateFlight(Long flightId, Flight flight) {
-		// TODO Auto-generated method stub
-		return null;
+	public int updateCabinBaggageLimit( int newLimit,Long flightId) {
+		return flightrepo.updateCabinBaggageLimit(newLimit, flightId);
 	}
 
 	@Override
 	public Flight getFlightById(Long flightId) {
-		// TODO Auto-generated method stub
-		return null;
+		return flightrepo.findById(flightId).orElse(null);
 	}
 
 	@Override
 	public List<Flight> getAllFlights() {
-		// TODO Auto-generated method stub
-		return null;
+		return flightrepo.findAll();
 	}
 
 	@Override
 	public void deleteFlight(Long flightId) {
-		// TODO Auto-generated method stub
-		
+		flightrepo.deleteById(flightId);
 	}
-
 }

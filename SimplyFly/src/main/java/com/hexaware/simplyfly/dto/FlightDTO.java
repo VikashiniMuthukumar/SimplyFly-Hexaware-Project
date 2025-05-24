@@ -7,10 +7,10 @@ public class FlightDTO {
     private int totalSeats;
     private int cabinBaggageLimit;
     private int checkInBaggageLimit;
-    private Long owner_id;
+    
     
 	public FlightDTO(Long flight_id, String name, String flightCode, int totalSeats, int cabinBaggageLimit,
-			int checkInBaggageLimit, Long owner_id) {
+			int checkInBaggageLimit) {
 		super();
 		this.flight_id = flight_id;
 		this.name = name;
@@ -18,7 +18,6 @@ public class FlightDTO {
 		this.totalSeats = totalSeats;
 		this.cabinBaggageLimit = cabinBaggageLimit;
 		this.checkInBaggageLimit = checkInBaggageLimit;
-		this.owner_id = owner_id;
 	}
 	
 	public Long getFlight_id() {
@@ -69,13 +68,6 @@ public class FlightDTO {
 		this.checkInBaggageLimit = checkInBaggageLimit;
 	}
 	
-	public Long getOwner_id() {
-		return owner_id;
-	}
-	
-	public void setOwner_id(Long owner_id) {
-		this.owner_id = owner_id;
-	}
     
     
 }

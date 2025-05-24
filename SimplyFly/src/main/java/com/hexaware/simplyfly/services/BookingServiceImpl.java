@@ -15,7 +15,7 @@ public class BookingServiceImpl implements IBookingService{
 	BookingRepository repo;
 	
 	@Override
-	public Booking bookFlight(Long userId, Long routeId, List<Long> seatIds) {
+	public Booking bookFlight(Long userId, Long routeId) {
 		// TODO Auto-generated method stub
 		return null;
 	}

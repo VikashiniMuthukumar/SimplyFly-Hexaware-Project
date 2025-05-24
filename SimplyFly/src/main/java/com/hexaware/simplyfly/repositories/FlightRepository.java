@@ -5,7 +5,6 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.hexaware.simplyfly.entities.Flight;
 
@@ -13,7 +12,6 @@ import com.hexaware.simplyfly.entities.Flight;
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
 	@Modifying
-	@Transactional
 	@Query("UPDATE Flight f SET f.cabinBaggageLimit = :limit WHERE f.flight_id = :flightId")
 	int updateCabinBaggageLimit(@Param("limit") int limit, @Param("flightId") Long flightId);
 }

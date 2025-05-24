@@ -6,7 +6,7 @@ import com.hexaware.simplyfly.entities.Booking;
 
 public interface IBookingService {
 
-	Booking bookFlight(Long userId, Long routeId, List<Long> seatIds);
+	Booking bookFlight(Long userId, Long routeId);
 	Booking getBookingById(Long bookingId);
 	List<Booking> getBookingsByUserId(Long userId);
 	Booking cancelBooking(Long bookingId, String reason);

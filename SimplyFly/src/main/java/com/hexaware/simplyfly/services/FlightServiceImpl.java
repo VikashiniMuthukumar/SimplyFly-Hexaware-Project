@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.hexaware.simplyfly.dto.FlightDTO;
 import com.hexaware.simplyfly.entities.Flight;
 import com.hexaware.simplyfly.entities.FlightOwner;
 import com.hexaware.simplyfly.repositories.FlightOwnerRepository;
@@ -18,17 +19,21 @@ public class FlightServiceImpl implements IFlightService {
 
 	@Autowired
 	FlightRepository flightrepo;
-
-	@Autowired
-	FlightOwnerRepository flightOwnerRepo;
-
+	
 	@Override
-	public Flight addFlight(Long ownerId, Flight flight) {
+	public Flight addFlight(FlightDTO flightDTO) {
+		Flight flight = new Flight();
+		flight.setName(flightDTO.getName());
+		flight.setFlightCode(flightDTO.getFlightCode());
+		flight.setTotalSeats(flightDTO.getTotalSeats());
+		flight.setCabinBaggageLimit(flightDTO.getCabinBaggageLimit());
+		flight.setCheckInBaggageLimit(flightDTO.getCheckInBaggageLimit());
+
 		return flightrepo.save(flight);
 	}
 
 	@Override
-	public int updateCabinBaggageLimit( int newLimit,Long flightId) {
+	public int updateCabinBaggageLimit(int newLimit, Long flightId) {
 		return flightrepo.updateCabinBaggageLimit(newLimit, flightId);
 	}
 

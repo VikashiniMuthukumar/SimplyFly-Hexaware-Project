@@ -1,27 +1,46 @@
 package com.hexaware.simplyfly.dto;
 
 import java.util.List;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.Min;
 
 public class FlightDTO {
-    
+
     private Long flight_id;
+
+    @NotBlank
+    @Size(max = 100, message = "Flight name must be at most 100 characters")
     private String name;
+
+    @NotBlank
+    @Size(max = 20, message = "Flight code must be at most 20 characters")
     private String flightCode;
-    private int totalSeats;
-    private int cabinBaggageLimit;
-    private int checkInBaggageLimit;
 
-    private Long owner_id;  // Refers to FlightOwner
+    @NotNull
+    @Min(value = 1, message = "Total seats must be at least 1")
+    private Integer totalSeats;
 
-    private List<Long> route_ids; // List of Route IDs assigned to this flight
+    @NotNull
+    @Min(value = 0, message = "Cabin baggage limit cannot be negative")
+    private Integer cabinBaggageLimit;
 
-    public FlightDTO() {
-       super();
-    }
+    @NotNull
+    @Min(value = 0, message = "Check-in baggage limit cannot be negative")
+    private Integer checkInBaggageLimit;
 
-    public FlightDTO(Long flight_id, String name, String flightCode, int totalSeats,
-                     int cabinBaggageLimit, int checkInBaggageLimit,
-                     Long owner_id, List<Long> route_ids) {
+    @NotNull
+    private Long owner_id;
+
+    private List<RouteDTO> routes;
+
+    public FlightDTO() {}
+
+    public FlightDTO(Long flight_id, String name, String flightCode,
+                     Integer totalSeats, Integer cabinBaggageLimit,
+                     Integer checkInBaggageLimit, Long owner_id,
+                     List<RouteDTO> routes) {
         this.flight_id = flight_id;
         this.name = name;
         this.flightCode = flightCode;
@@ -29,7 +48,7 @@ public class FlightDTO {
         this.cabinBaggageLimit = cabinBaggageLimit;
         this.checkInBaggageLimit = checkInBaggageLimit;
         this.owner_id = owner_id;
-        this.route_ids = route_ids;
+        this.routes = routes;
     }
 
     public Long getFlight_id() {
@@ -56,27 +75,27 @@ public class FlightDTO {
         this.flightCode = flightCode;
     }
 
-    public int getTotalSeats() {
+    public Integer getTotalSeats() {
         return totalSeats;
     }
 
-    public void setTotalSeats(int totalSeats) {
+    public void setTotalSeats(Integer totalSeats) {
         this.totalSeats = totalSeats;
     }
 
-    public int getCabinBaggageLimit() {
+    public Integer getCabinBaggageLimit() {
         return cabinBaggageLimit;
     }
 
-    public void setCabinBaggageLimit(int cabinBaggageLimit) {
+    public void setCabinBaggageLimit(Integer cabinBaggageLimit) {
         this.cabinBaggageLimit = cabinBaggageLimit;
     }
 
-    public int getCheckInBaggageLimit() {
+    public Integer getCheckInBaggageLimit() {
         return checkInBaggageLimit;
     }
 
-    public void setCheckInBaggageLimit(int checkInBaggageLimit) {
+    public void setCheckInBaggageLimit(Integer checkInBaggageLimit) {
         this.checkInBaggageLimit = checkInBaggageLimit;
     }
 
@@ -88,11 +107,11 @@ public class FlightDTO {
         this.owner_id = owner_id;
     }
 
-    public List<Long> getRoute_ids() {
-        return route_ids;
+    public List<RouteDTO> getRoutes() {
+        return routes;
     }
 
-    public void setRoute_ids(List<Long> route_ids) {
-        this.route_ids = route_ids;
+    public void setRoutes(List<RouteDTO> routes) {
+        this.routes = routes;
     }
 }

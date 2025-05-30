@@ -1,24 +1,35 @@
 package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PositiveOrZero;
 
 public class PaymentsDTO {
-
     public enum Method { UPI, CARD, NETBANKING }
     public enum Status { SUCCESS, FAILED, PENDING }
 
     private Long payment_id;
+
+    @NotNull
     private Method method;
+
+    @NotNull
+    @PositiveOrZero(message = "Amount must be zero or positive")
     private Double amount;
+
+    @NotNull
     private Status paymentStatus;
+
     private LocalDateTime paidAt;
-    private Long booking_id;  // Reference to associated booking
 
-    public PaymentsDTO() {
-        // Default constructor
-    }
+    @NotNull
+    private Long booking_id;
 
-    public PaymentsDTO(Long payment_id, Method method, Double amount, Status paymentStatus, LocalDateTime paidAt, Long booking_id) {
+    public PaymentsDTO() {}
+
+    public PaymentsDTO(Long payment_id, Method method, Double amount,
+                       Status paymentStatus, LocalDateTime paidAt,
+                       Long booking_id) {
         this.payment_id = payment_id;
         this.method = method;
         this.amount = amount;

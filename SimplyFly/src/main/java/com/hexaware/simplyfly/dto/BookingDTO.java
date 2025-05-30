@@ -2,6 +2,9 @@ package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
 public class BookingDTO {
 
     public enum BookingStatus {
@@ -9,17 +12,33 @@ public class BookingDTO {
     }
 
     private Long booking_id;
+
+    @NotNull
     private LocalDateTime bookedAt;
+
+    @NotNull
     private BookingStatus status;
+
+    @NotNull
+    @Positive
     private Double totalFare;
 
+    @NotNull
+    @Positive
     private Long user_id;
+
+    @NotNull
+    @Positive
     private Long route_id;
+
+    @NotNull
+    @Positive
     private Long payment_id;
-    private Long cancellation_id;
+
+    private Long cancellation_id;  // Nullable, no validation
 
     public BookingDTO() {
-        super();
+        // Default constructor
     }
 
     public BookingDTO(Long booking_id, LocalDateTime bookedAt, BookingStatus status, Double totalFare,

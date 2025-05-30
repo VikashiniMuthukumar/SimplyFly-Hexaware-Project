@@ -1,21 +1,23 @@
 package com.hexaware.simplyfly.dto;
 
 import java.util.List;
+import jakarta.validation.constraints.NotNull;
 
 public class FlightOwnerDTO {
-    
-    private Long owner_id;       // Same as user_id
-    private Long user_id;        // Associated user
-    private List<Long> flight_ids; // List of Flight IDs owned by this user
 
-    public FlightOwnerDTO() {
-        super();
-    }
+    private Long owner_id;
 
-    public FlightOwnerDTO(Long owner_id, Long user_id, List<Long> flight_ids) {
+    @NotNull(message = "User ID is required for Flight Owner")
+    private Long user_id;
+
+    private List<FlightDTO> flights;
+
+    public FlightOwnerDTO() {}
+
+    public FlightOwnerDTO(Long owner_id, Long user_id, List<FlightDTO> flights) {
         this.owner_id = owner_id;
         this.user_id = user_id;
-        this.flight_ids = flight_ids;
+        this.flights = flights;
     }
 
     public Long getOwner_id() {
@@ -34,11 +36,11 @@ public class FlightOwnerDTO {
         this.user_id = user_id;
     }
 
-    public List<Long> getFlight_ids() {
-        return flight_ids;
+    public List<FlightDTO> getFlights() {
+        return flights;
     }
 
-    public void setFlight_ids(List<Long> flight_ids) {
-        this.flight_ids = flight_ids;
+    public void setFlights(List<FlightDTO> flights) {
+        this.flights = flights;
     }
 }

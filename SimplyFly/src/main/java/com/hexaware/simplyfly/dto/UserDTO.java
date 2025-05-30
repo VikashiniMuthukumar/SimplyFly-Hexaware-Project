@@ -1,24 +1,40 @@
 package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.Pattern;
 
 public class UserDTO {
-    
     public enum Role { PASSENGER, OWNER, ADMIN }
 
     private Long user_id;
+
+    @NotBlank
+    @Size(max = 100, message = "Name must be at most 100 characters")
     private String name;
+
+    @NotBlank
+    @Email(message = "Email should be valid")
+    @Size(max = 100, message = "Email must be at most 100 characters")
     private String email;
+
+    @Size(max = 15)
+    @Pattern(regexp = "^\\+?[0-9]*$", message = "Phone number must contain only digits and optional leading +")
     private String phoneNumber;
+
+    @NotNull
     private Role role;
+
     private LocalDateTime registeredAt;
 
-    private Long admin_id;         // Optional - reference to Admin
-    private Long flightOwner_id;   // Optional - reference to FlightOwner
+    private Long admin_id;
 
-    public UserDTO() {
-        // Default constructor
-    }
+    private Long flightOwner_id;
+
+    public UserDTO() {}
 
     public UserDTO(Long user_id, String name, String email, String phoneNumber,
                    Role role, LocalDateTime registeredAt,

@@ -1,6 +1,9 @@
 package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.NotBlank;
 
 public class CancellationDTO {
 
@@ -9,12 +12,25 @@ public class CancellationDTO {
     }
 
     private Long cancellation_id;
+
+    @NotBlank
     private String reason;
+
+    @NotNull
     private Double refundAmount;
+
+    @NotNull
     private RefundStatus refundStatus;
+
+    @NotNull
     private LocalDateTime cancelledAt;
 
+    @NotNull
+    @Positive
     private Long booking_id;
+
+    @NotNull
+    @Positive
     private Long cancelled_by_user_id;
 
     public CancellationDTO() {

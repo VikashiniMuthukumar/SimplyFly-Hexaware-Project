@@ -1,23 +1,44 @@
 package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
+import java.util.List;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.PositiveOrZero;
+import jakarta.validation.constraints.Size;
 
 public class RouteDTO {
 
     private Long route_id;
-    private String origin;
-    private String destination;
-    private LocalDateTime departureTime;
-    private LocalDateTime arrivalTime;
-    private Double baseFare;
-    private Long flight_id; // Reference to associated Flight
 
-    public RouteDTO() {
-        // Default constructor
-    }
+    @NotBlank
+    @Size(max = 50, message = "Origin must be at most 50 characters")
+    private String origin;
+
+    @NotBlank
+    @Size(max = 50, message = "Destination must be at most 50 characters")
+    private String destination;
+
+    @NotNull
+    private LocalDateTime departureTime;
+
+    @NotNull
+    private LocalDateTime arrivalTime;
+
+    @NotNull
+    @PositiveOrZero(message = "Base fare must be zero or positive")
+    private Double baseFare;
+
+    @NotNull
+    private Long flight_id;
+
+    private List<BookingDTO> bookings;
+
+    public RouteDTO() {}
 
     public RouteDTO(Long route_id, String origin, String destination, LocalDateTime departureTime,
-                    LocalDateTime arrivalTime, Double baseFare, Long flight_id) {
+                    LocalDateTime arrivalTime, Double baseFare, Long flight_id,
+                    List<BookingDTO> bookings) {
         this.route_id = route_id;
         this.origin = origin;
         this.destination = destination;
@@ -25,6 +46,7 @@ public class RouteDTO {
         this.arrivalTime = arrivalTime;
         this.baseFare = baseFare;
         this.flight_id = flight_id;
+        this.bookings = bookings;
     }
 
     public Long getRoute_id() {
@@ -81,5 +103,13 @@ public class RouteDTO {
 
     public void setFlight_id(Long flight_id) {
         this.flight_id = flight_id;
+    }
+
+    public List<BookingDTO> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(List<BookingDTO> bookings) {
+        this.bookings = bookings;
     }
 }

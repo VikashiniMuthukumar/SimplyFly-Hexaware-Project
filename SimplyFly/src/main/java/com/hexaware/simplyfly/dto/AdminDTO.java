@@ -1,7 +1,13 @@
 package com.hexaware.simplyfly.dto;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Positive;
+
 public class AdminDTO {
     private Long admin_id;
+
+    @NotNull
+    @Positive
     private Long user_id;
 
     public AdminDTO() {

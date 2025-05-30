@@ -11,9 +11,15 @@ import com.hexaware.simplyfly.exceptions.RouteNotFoundException;
 import com.hexaware.simplyfly.exceptions.UserNotFoundException;
 
 public interface IBookingService {
-    Booking createBooking(BookingDTO dto) throws UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException;
-    Booking updateBooking(Long booking_id, BookingDTO dto) throws BookingNotFoundException, UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException;
-    boolean deleteBooking(Long booking_id) throws BookingNotFoundException;
-    Booking getBookingById(Long booking_id) throws BookingNotFoundException;
-    List<Booking> getAllBookings();
+	Booking createBooking(BookingDTO dto) throws UserNotFoundException, RouteNotFoundException,
+			PaymentNotFoundException, CancellationNotFoundException;
+
+	Booking updateBooking(Long booking_id, BookingDTO dto) throws BookingNotFoundException, UserNotFoundException,
+			RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException;
+
+	boolean deleteBooking(Long booking_id) throws BookingNotFoundException;
+
+	Booking getBookingById(Long booking_id) throws BookingNotFoundException;
+
+	List<Booking> getAllBookings();
 }

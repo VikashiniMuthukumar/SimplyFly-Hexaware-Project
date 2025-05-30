@@ -1,24 +1,26 @@
 package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
+
+import com.hexaware.simplyfly.enums.PaymentMethod;
+import com.hexaware.simplyfly.enums.PaymentStatus;
+
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PositiveOrZero;
 
 public class PaymentsDTO {
-    public enum Method { UPI, CARD, NETBANKING }
-    public enum Status { SUCCESS, FAILED, PENDING }
 
     private Long payment_id;
 
     @NotNull
-    private Method method;
+    private PaymentMethod method;
 
     @NotNull
     @PositiveOrZero(message = "Amount must be zero or positive")
     private Double amount;
 
     @NotNull
-    private Status paymentStatus;
+    private PaymentStatus paymentStatus;
 
     private LocalDateTime paidAt;
 
@@ -27,8 +29,8 @@ public class PaymentsDTO {
 
     public PaymentsDTO() {}
 
-    public PaymentsDTO(Long payment_id, Method method, Double amount,
-                       Status paymentStatus, LocalDateTime paidAt,
+    public PaymentsDTO(Long payment_id, PaymentMethod method, Double amount,
+                       PaymentStatus paymentStatus, LocalDateTime paidAt,
                        Long booking_id) {
         this.payment_id = payment_id;
         this.method = method;
@@ -38,6 +40,8 @@ public class PaymentsDTO {
         this.booking_id = booking_id;
     }
 
+    // Getters and Setters
+
     public Long getPayment_id() {
         return payment_id;
     }
@@ -46,11 +50,11 @@ public class PaymentsDTO {
         this.payment_id = payment_id;
     }
 
-    public Method getMethod() {
+    public PaymentMethod getMethod() {
         return method;
     }
 
-    public void setMethod(Method method) {
+    public void setMethod(PaymentMethod method) {
         this.method = method;
     }
 
@@ -62,11 +66,11 @@ public class PaymentsDTO {
         this.amount = amount;
     }
 
-    public Status getPaymentStatus() {
+    public PaymentStatus getPaymentStatus() {
         return paymentStatus;
     }
 
-    public void setPaymentStatus(Status paymentStatus) {
+    public void setPaymentStatus(PaymentStatus paymentStatus) {
         this.paymentStatus = paymentStatus;
     }
 

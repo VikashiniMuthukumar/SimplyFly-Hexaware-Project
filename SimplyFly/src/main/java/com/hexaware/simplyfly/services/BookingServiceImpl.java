@@ -5,37 +5,118 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.hexaware.simplyfly.dto.BookingDTO;
 import com.hexaware.simplyfly.entities.Booking;
+import com.hexaware.simplyfly.entities.Cancellation;
+import com.hexaware.simplyfly.entities.Payments;
+import com.hexaware.simplyfly.entities.Route;
+import com.hexaware.simplyfly.entities.User;
+import com.hexaware.simplyfly.exceptions.BookingNotFoundException;
+import com.hexaware.simplyfly.exceptions.CancellationNotFoundException;
+import com.hexaware.simplyfly.exceptions.PaymentNotFoundException;
+import com.hexaware.simplyfly.exceptions.RouteNotFoundException;
+import com.hexaware.simplyfly.exceptions.UserNotFoundException;
 import com.hexaware.simplyfly.repositories.BookingRepository;
+import com.hexaware.simplyfly.repositories.CancellationRepository;
+import com.hexaware.simplyfly.repositories.PaymentsRepository;
+import com.hexaware.simplyfly.repositories.RouteRepository;
+import com.hexaware.simplyfly.repositories.UserRepository;
 
 @Service
-public class BookingServiceImpl implements IBookingService{
+public class BookingServiceImpl implements IBookingService {
 
-	@Autowired
-	BookingRepository repo;
-	
-	@Override
-	public Booking bookFlight(Long userId, Long routeId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private BookingRepository bookingRepository;
 
-	@Override
-	public Booking getBookingById(Long bookingId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private UserRepository userRepository;
 
-	@Override
-	public List<Booking> getBookingsByUserId(Long userId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private RouteRepository routeRepository;
 
-	@Override
-	public Booking cancelBooking(Long bookingId, String reason) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private PaymentsRepository paymentRepository;
 
+    @Autowired
+    private CancellationRepository cancellationRepository;
+
+    @Override
+    public Booking createBooking(BookingDTO dto) throws UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException {
+        User user = userRepository.findById(dto.getUser_id())
+                .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + dto.getUser_id()));
+
+        Route route = routeRepository.findById(dto.getRoute_id())
+                .orElseThrow(() -> new RouteNotFoundException("Route not found with ID: " + dto.getRoute_id()));
+
+        Payments payment = paymentRepository.findById(dto.getPayment_id())
+                .orElseThrow(() -> new PaymentNotFoundException("Payment not found with ID: " + dto.getPayment_id()));
+
+        Cancellation cancellation = null;
+        if (dto.getCancellation_id() != null) {
+            cancellation = cancellationRepository.findById(dto.getCancellation_id())
+                .orElseThrow(() -> new CancellationNotFoundException("Cancellation not found with ID: " + dto.getCancellation_id()));
+        }
+
+        Booking booking = new Booking();
+        booking.setBookedAt(dto.getBookedAt());
+        booking.setStatus(dto.getStatus());  // Now uses shared enum directly
+        booking.setTotalFare(dto.getTotalFare());
+        booking.setUser(user);
+        booking.setRoute(route);
+        booking.setPayment(payment);
+        booking.setCancellation(cancellation);
+
+        return bookingRepository.save(booking);
+    }
+
+    @Override
+    public Booking updateBooking(Long booking_id, BookingDTO dto) throws BookingNotFoundException, UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException {
+        Booking booking = bookingRepository.findById(booking_id)
+                .orElseThrow(() -> new BookingNotFoundException("Booking not found with ID: " + booking_id));
+
+        User user = userRepository.findById(dto.getUser_id())
+                .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + dto.getUser_id()));
+
+        Route route = routeRepository.findById(dto.getRoute_id())
+                .orElseThrow(() -> new RouteNotFoundException("Route not found with ID: " + dto.getRoute_id()));
+
+        Payments payment = paymentRepository.findById(dto.getPayment_id())
+                .orElseThrow(() -> new PaymentNotFoundException("Payment not found with ID: " + dto.getPayment_id()));
+
+        Cancellation cancellation = null;
+        if (dto.getCancellation_id() != null) {
+            cancellation = cancellationRepository.findById(dto.getCancellation_id())
+                .orElseThrow(() -> new CancellationNotFoundException("Cancellation not found with ID: " + dto.getCancellation_id()));
+        }
+
+        booking.setBookedAt(dto.getBookedAt());
+        booking.setStatus(dto.getStatus());  // Shared enum
+        booking.setTotalFare(dto.getTotalFare());
+        booking.setUser(user);
+        booking.setRoute(route);
+        booking.setPayment(payment);
+        booking.setCancellation(cancellation);
+
+        return bookingRepository.save(booking);
+    }
+
+    @Override
+    public boolean deleteBooking(Long booking_id) throws BookingNotFoundException {
+        if (!bookingRepository.existsById(booking_id)) {
+            throw new BookingNotFoundException("Booking not found with ID: " + booking_id);
+        }
+        bookingRepository.deleteById(booking_id);
+        return true;
+    }
+
+    @Override
+    public Booking getBookingById(Long booking_id) throws BookingNotFoundException {
+        return bookingRepository.findById(booking_id)
+                .orElseThrow(() -> new BookingNotFoundException("Booking not found with ID: " + booking_id));
+    }
+
+    @Override
+    public List<Booking> getAllBookings() {
+        return bookingRepository.findAll();
+    }
 }

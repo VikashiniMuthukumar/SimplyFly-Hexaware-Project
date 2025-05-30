@@ -5,32 +5,67 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hexaware.simplyfly.entities.Flight;
+import com.hexaware.simplyfly.dto.FlightOwnerDTO;
 import com.hexaware.simplyfly.entities.FlightOwner;
+import com.hexaware.simplyfly.entities.User;
+import com.hexaware.simplyfly.exceptions.FlightOwnerNotFoundException;
+import com.hexaware.simplyfly.exceptions.UserNotFoundException;
 import com.hexaware.simplyfly.repositories.FlightOwnerRepository;
+import com.hexaware.simplyfly.repositories.UserRepository;
 
 @Service
-public class FlightOwnerServiceImpl implements IFlightOwnerService{
+public class FlightOwnerServiceImpl implements IFlightOwnerService {
 
-	@Autowired
-	FlightOwnerRepository repo;
-	
-	@Override
-	public FlightOwner getOwnerById(Long ownerId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private FlightOwnerRepository flightOwnerRepository;
 
-	@Override
-	public FlightOwner assignFlightOwnerRole(Long userId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Autowired
+    private UserRepository userRepository;
 
-	@Override
-	public List<Flight> getAllFlightsByOwner(Long ownerId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+    @Override
+    public FlightOwner createFlightOwner(FlightOwnerDTO dto) throws UserNotFoundException {
+        FlightOwner owner = new FlightOwner();
 
+        User user = userRepository.findById(dto.getUser_id())
+                .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + dto.getUser_id()));
+
+        owner.setUser(user);
+
+        return flightOwnerRepository.save(owner);
+    }
+
+    @Override
+    public FlightOwner updateFlightOwner(Long owner_id, FlightOwnerDTO dto) throws FlightOwnerNotFoundException, UserNotFoundException {
+        FlightOwner owner = flightOwnerRepository.findById(owner_id)
+                .orElseThrow(() -> new FlightOwnerNotFoundException("Flight Owner not found with ID: " + owner_id));
+
+        User user = userRepository.findById(dto.getUser_id())
+                .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + dto.getUser_id()));
+
+        owner.setUser(user);
+
+        // Optionally update flights here if needed
+
+        return flightOwnerRepository.save(owner);
+    }
+
+    @Override
+    public boolean deleteFlightOwner(Long owner_id) throws FlightOwnerNotFoundException {
+        if (!flightOwnerRepository.existsById(owner_id)) {
+            throw new FlightOwnerNotFoundException("Flight Owner not found with ID: " + owner_id);
+        }
+        flightOwnerRepository.deleteById(owner_id);
+        return true;
+    }
+
+    @Override
+    public FlightOwner getFlightOwnerById(Long owner_id) throws FlightOwnerNotFoundException {
+        return flightOwnerRepository.findById(owner_id)
+                .orElseThrow(() -> new FlightOwnerNotFoundException("Flight Owner not found with ID: " + owner_id));
+    }
+
+    @Override
+    public List<FlightOwner> getAllFlightOwners() {
+        return flightOwnerRepository.findAll();
+    }
 }

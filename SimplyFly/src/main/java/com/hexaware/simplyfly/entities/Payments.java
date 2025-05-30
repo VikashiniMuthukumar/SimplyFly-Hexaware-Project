@@ -2,20 +2,13 @@ package com.hexaware.simplyfly.entities;
 
 import java.time.LocalDateTime;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
+import com.hexaware.simplyfly.enums.PaymentMethod;
+import com.hexaware.simplyfly.enums.PaymentStatus;
+
+import jakarta.persistence.*;
 
 @Entity
 public class Payments {
-	public enum Method { UPI, CARD, NETBANKING }
-    public enum Status { SUCCESS, FAILED, PENDING }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,12 +16,12 @@ public class Payments {
     private Long payment_id;
 
     @Enumerated(EnumType.STRING)
-    private Method method;
+    private PaymentMethod method;
 
     private Double amount;
 
     @Enumerated(EnumType.STRING)
-    private Status paymentStatus;
+    private PaymentStatus paymentStatus;
 
     private LocalDateTime paidAt = LocalDateTime.now();
 
@@ -36,69 +29,66 @@ public class Payments {
     @JoinColumn(name = "booking_id")
     private Booking booking;
 
-	public Payments() {
-		super();
-	}
+    public Payments() {}
 
-	public Payments(Long payment_id, Method method, Double amount, Status paymentStatus, LocalDateTime paidAt,
-			Booking booking) {
-		super();
-		this.payment_id = payment_id;
-		this.method = method;
-		this.amount = amount;
-		this.paymentStatus = paymentStatus;
-		this.paidAt = paidAt;
-		this.booking = booking;
-	}
+    public Payments(Long payment_id, PaymentMethod method, Double amount,
+                    PaymentStatus paymentStatus, LocalDateTime paidAt,
+                    Booking booking) {
+        this.payment_id = payment_id;
+        this.method = method;
+        this.amount = amount;
+        this.paymentStatus = paymentStatus;
+        this.paidAt = paidAt;
+        this.booking = booking;
+    }
 
-	public Long getPayment_id() {
-		return payment_id;
-	}
+    // Getters and Setters
 
-	public void setPayment_id(Long payment_id) {
-		this.payment_id = payment_id;
-	}
+    public Long getPayment_id() {
+        return payment_id;
+    }
 
-	public Method getMethod() {
-		return method;
-	}
+    public void setPayment_id(Long payment_id) {
+        this.payment_id = payment_id;
+    }
 
-	public void setMethod(Method method) {
-		this.method = method;
-	}
+    public PaymentMethod getMethod() {
+        return method;
+    }
 
-	public Double getAmount() {
-		return amount;
-	}
+    public void setMethod(PaymentMethod method) {
+        this.method = method;
+    }
 
-	public void setAmount(Double amount) {
-		this.amount = amount;
-	}
+    public Double getAmount() {
+        return amount;
+    }
 
-	public Status getPaymentStatus() {
-		return paymentStatus;
-	}
+    public void setAmount(Double amount) {
+        this.amount = amount;
+    }
 
-	public void setPaymentStatus(Status paymentStatus) {
-		this.paymentStatus = paymentStatus;
-	}
+    public PaymentStatus getPaymentStatus() {
+        return paymentStatus;
+    }
 
-	public LocalDateTime getPaidAt() {
-		return paidAt;
-	}
+    public void setPaymentStatus(PaymentStatus paymentStatus) {
+        this.paymentStatus = paymentStatus;
+    }
 
-	public void setPaidAt(LocalDateTime paidAt) {
-		this.paidAt = paidAt;
-	}
+    public LocalDateTime getPaidAt() {
+        return paidAt;
+    }
 
-	public Booking getBooking() {
-		return booking;
-	}
+    public void setPaidAt(LocalDateTime paidAt) {
+        this.paidAt = paidAt;
+    }
 
-	public void setBooking(Booking booking) {
-		this.booking = booking;
-	}
+    public Booking getBooking() {
+        return booking;
+    }
 
-	
+    public void setBooking(Booking booking) {
+        this.booking = booking;
+    }
 }
-

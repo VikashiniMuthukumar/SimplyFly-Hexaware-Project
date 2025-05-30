@@ -2,6 +2,8 @@ package com.hexaware.simplyfly.entities;
 
 import java.time.LocalDateTime;
 
+import com.hexaware.simplyfly.enums.BookingStatus;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -16,36 +18,32 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class Booking {
-	public enum BookingStatus {
-		CONFIRMED, CANCELLED
-	}
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "booking_id")
-	private Long booking_id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "booking_id")
+    private Long booking_id;
 
-	private LocalDateTime bookedAt = LocalDateTime.now();
+    private LocalDateTime bookedAt = LocalDateTime.now();
 
-	@Enumerated(EnumType.STRING)
-	private BookingStatus status = BookingStatus.CONFIRMED;
+    @Enumerated(EnumType.STRING)
+    private BookingStatus status = BookingStatus.CONFIRMED;
 
-	private Double totalFare;
+    private Double totalFare;
 
-	@ManyToOne
-	@JoinColumn(name = "user_id")
-	private User user;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
-	@ManyToOne
-	@JoinColumn(name = "route_id")
-	private Route route;
+    @ManyToOne
+    @JoinColumn(name = "route_id")
+    private Route route;
 
-	
-	@OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
-	private Payments payment;
+    @OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
+    private Payments payment;
 
-	@OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
-	private Cancellation cancellation;
+    @OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
+    private Cancellation cancellation;
 
 	public Booking() {
 		super();
@@ -128,5 +126,12 @@ public class Booking {
 		this.cancellation = cancellation;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "Booking [booking_id=" + booking_id + ", bookedAt=" + bookedAt + ", status=" + status + ", totalFare="
+				+ totalFare + ", user=" + user + ", route=" + route + ", payment=" + payment + ", cancellation="
+				+ cancellation + "]";
+	}
+
+   
 }

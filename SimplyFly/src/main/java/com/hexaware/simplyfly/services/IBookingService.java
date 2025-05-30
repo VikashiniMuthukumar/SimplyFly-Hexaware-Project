@@ -2,12 +2,18 @@ package com.hexaware.simplyfly.services;
 
 import java.util.List;
 
+import com.hexaware.simplyfly.dto.BookingDTO;
 import com.hexaware.simplyfly.entities.Booking;
+import com.hexaware.simplyfly.exceptions.BookingNotFoundException;
+import com.hexaware.simplyfly.exceptions.CancellationNotFoundException;
+import com.hexaware.simplyfly.exceptions.PaymentNotFoundException;
+import com.hexaware.simplyfly.exceptions.RouteNotFoundException;
+import com.hexaware.simplyfly.exceptions.UserNotFoundException;
 
 public interface IBookingService {
-
-	Booking bookFlight(Long userId, Long routeId);
-	Booking getBookingById(Long bookingId);
-	List<Booking> getBookingsByUserId(Long userId);
-	Booking cancelBooking(Long bookingId, String reason);
+    Booking createBooking(BookingDTO dto) throws UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException;
+    Booking updateBooking(Long booking_id, BookingDTO dto) throws BookingNotFoundException, UserNotFoundException, RouteNotFoundException, PaymentNotFoundException, CancellationNotFoundException;
+    boolean deleteBooking(Long booking_id) throws BookingNotFoundException;
+    Booking getBookingById(Long booking_id) throws BookingNotFoundException;
+    List<Booking> getAllBookings();
 }

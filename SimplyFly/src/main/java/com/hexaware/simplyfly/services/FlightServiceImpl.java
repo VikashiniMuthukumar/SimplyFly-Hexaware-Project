@@ -7,45 +7,74 @@ import org.springframework.stereotype.Service;
 
 import com.hexaware.simplyfly.dto.FlightDTO;
 import com.hexaware.simplyfly.entities.Flight;
+import com.hexaware.simplyfly.entities.FlightOwner;
+import com.hexaware.simplyfly.exceptions.FlightNotFoundException;
+import com.hexaware.simplyfly.exceptions.FlightOwnerNotFoundException;
+import com.hexaware.simplyfly.repositories.FlightOwnerRepository;
 import com.hexaware.simplyfly.repositories.FlightRepository;
 
-import jakarta.transaction.Transactional;
-
-@Transactional
 @Service
 public class FlightServiceImpl implements IFlightService {
 
-	@Autowired
-	FlightRepository flightrepo;
-	
-	@Override
-	public Flight addFlight(FlightDTO flightDTO) {
-		Flight flight = new Flight();
-		flight.setName(flightDTO.getName());
-		flight.setFlightCode(flightDTO.getFlightCode());
-		flight.setTotalSeats(flightDTO.getTotalSeats());
-		flight.setCabinBaggageLimit(flightDTO.getCabinBaggageLimit());
-		flight.setCheckInBaggageLimit(flightDTO.getCheckInBaggageLimit());
-		return flightrepo.save(flight);
-	}
+    @Autowired
+    private FlightRepository flightRepository;
 
-	@Override
-	public int updateCabinBaggageLimit(int newLimit, Long flightId) {
-		return flightrepo.updateCabinBaggageLimit(newLimit, flightId);
-	}
+    @Autowired
+    private FlightOwnerRepository flightOwnerRepository;
 
-	@Override
-	public Flight getFlightById(Long flightId) {
-		return flightrepo.findById(flightId).orElse(null);
-	}
+    @Override
+    public Flight createFlight(FlightDTO dto) throws FlightOwnerNotFoundException {
+        Flight flight = new Flight();
+        flight.setName(dto.getName());
+        flight.setFlightCode(dto.getFlightCode());
+        flight.setTotalSeats(dto.getTotalSeats());
+        flight.setCabinBaggageLimit(dto.getCabinBaggageLimit());
+        flight.setCheckInBaggageLimit(dto.getCheckInBaggageLimit());
 
-	@Override
-	public List<Flight> getAllFlights() {
-		return flightrepo.findAll();
-	}
+        FlightOwner owner = flightOwnerRepository.findById(dto.getOwner_id())
+            .orElseThrow(() -> new FlightOwnerNotFoundException("Flight owner not found with ID: " + dto.getOwner_id()));
 
-	@Override
-	public void deleteFlight(Long flightId) {
-		flightrepo.deleteById(flightId);
-	}
+        flight.setOwner(owner);
+
+        return flightRepository.save(flight);
+    }
+
+    @Override
+    public Flight updateFlight(Long flight_id, FlightDTO dto) throws FlightNotFoundException, FlightOwnerNotFoundException {
+        Flight flight = flightRepository.findById(flight_id)
+                .orElseThrow(() -> new FlightNotFoundException("Flight not found with ID: " + flight_id));
+
+        flight.setName(dto.getName());
+        flight.setFlightCode(dto.getFlightCode());
+        flight.setTotalSeats(dto.getTotalSeats());
+        flight.setCabinBaggageLimit(dto.getCabinBaggageLimit());
+        flight.setCheckInBaggageLimit(dto.getCheckInBaggageLimit());
+
+        FlightOwner owner = flightOwnerRepository.findById(dto.getOwner_id())
+            .orElseThrow(() -> new FlightOwnerNotFoundException("Flight owner not found with ID: " + dto.getOwner_id()));
+
+        flight.setOwner(owner);
+
+        return flightRepository.save(flight);
+    }
+
+    @Override
+    public boolean deleteFlight(Long flight_id) throws FlightNotFoundException {
+        if (!flightRepository.existsById(flight_id)) {
+            throw new FlightNotFoundException("Flight not found with ID: " + flight_id);
+        }
+        flightRepository.deleteById(flight_id);
+        return true;
+    }
+
+    @Override
+    public Flight getFlightById(Long flight_id) throws FlightNotFoundException {
+        return flightRepository.findById(flight_id)
+                .orElseThrow(() -> new FlightNotFoundException("Flight not found with ID: " + flight_id));
+    }
+
+    @Override
+    public List<Flight> getAllFlights() {
+        return flightRepository.findAll();
+    }
 }

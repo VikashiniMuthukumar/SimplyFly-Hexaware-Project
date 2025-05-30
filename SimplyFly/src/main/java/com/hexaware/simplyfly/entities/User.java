@@ -4,6 +4,8 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.hexaware.simplyfly.enums.UserRole;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,7 +19,6 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class User {
-    public enum Role { PASSENGER, OWNER, ADMIN }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,7 +36,7 @@ public class User {
     private String phoneNumber;
 
     @Enumerated(EnumType.STRING)
-    private Role role;
+    private UserRole role;
 
     private LocalDateTime registeredAt = LocalDateTime.now();
 
@@ -48,24 +49,25 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Booking> bookings = new ArrayList<>();
 
-	public User() {
-		super();
-	}
 
-	public User(Long user_id, String name, String email, String password, String phoneNumber, Role role,
-			LocalDateTime registeredAt, Admin admin, FlightOwner flightOwner, List<Booking> bookings) {
-		super();
-		this.user_id = user_id;
-		this.name = name;
-		this.email = email;
-		this.password = password;
-		this.phoneNumber = phoneNumber;
-		this.role = role;
-		this.registeredAt = registeredAt;
-		this.admin = admin;
-		this.flightOwner = flightOwner;
-		this.bookings = bookings;
-	}
+    public User() {
+    	super();
+    }
+
+    public User(Long user_id, String name, String email, String password, String phoneNumber,
+                UserRole role, LocalDateTime registeredAt, Admin admin,
+                FlightOwner flightOwner, List<Booking> bookings) {
+        this.user_id = user_id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.phoneNumber = phoneNumber;
+        this.role = role;
+        this.registeredAt = registeredAt;
+        this.admin = admin;
+        this.flightOwner = flightOwner;
+        this.bookings = bookings;
+    }
 
 	public Long getUser_id() {
 		return user_id;
@@ -107,11 +109,11 @@ public class User {
 		this.phoneNumber = phoneNumber;
 	}
 
-	public Role getRole() {
+	public UserRole getRole() {
 		return role;
 	}
 
-	public void setRole(Role role) {
+	public void setRole(UserRole role) {
 		this.role = role;
 	}
 
@@ -147,5 +149,12 @@ public class User {
 		this.bookings = bookings;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "User [user_id=" + user_id + ", name=" + name + ", email=" + email + ", password=" + password
+				+ ", phoneNumber=" + phoneNumber + ", role=" + role + ", registeredAt=" + registeredAt + ", admin="
+				+ admin + ", flightOwner=" + flightOwner + ", bookings=" + bookings + "]";
+	}
+
+   
 }

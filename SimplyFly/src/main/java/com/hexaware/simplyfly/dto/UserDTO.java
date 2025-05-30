@@ -3,26 +3,34 @@ package com.hexaware.simplyfly.dto;
 import java.time.LocalDateTime;
 
 public class UserDTO {
+    
+    public enum Role { PASSENGER, OWNER, ADMIN }
 
     private Long user_id;
-    private String fullName;
+    private String name;
     private String email;
     private String phoneNumber;
-    private String address;
-    private String role;
+    private Role role;
     private LocalDateTime registeredAt;
 
+    private Long admin_id;         // Optional - reference to Admin
+    private Long flightOwner_id;   // Optional - reference to FlightOwner
+
     public UserDTO() {
+        // Default constructor
     }
 
-    public UserDTO(Long user_id, String fullName, String email, String phoneNumber, String address, String role, LocalDateTime registeredAt) {
+    public UserDTO(Long user_id, String name, String email, String phoneNumber,
+                   Role role, LocalDateTime registeredAt,
+                   Long admin_id, Long flightOwner_id) {
         this.user_id = user_id;
-        this.fullName = fullName;
+        this.name = name;
         this.email = email;
         this.phoneNumber = phoneNumber;
-        this.address = address;
         this.role = role;
         this.registeredAt = registeredAt;
+        this.admin_id = admin_id;
+        this.flightOwner_id = flightOwner_id;
     }
 
     public Long getUser_id() {
@@ -33,12 +41,12 @@ public class UserDTO {
         this.user_id = user_id;
     }
 
-    public String getFullName() {
-        return fullName;
+    public String getName() {
+        return name;
     }
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getEmail() {
@@ -57,19 +65,11 @@ public class UserDTO {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         this.role = role;
     }
 
@@ -79,5 +79,21 @@ public class UserDTO {
 
     public void setRegisteredAt(LocalDateTime registeredAt) {
         this.registeredAt = registeredAt;
+    }
+
+    public Long getAdmin_id() {
+        return admin_id;
+    }
+
+    public void setAdmin_id(Long admin_id) {
+        this.admin_id = admin_id;
+    }
+
+    public Long getFlightOwner_id() {
+        return flightOwner_id;
+    }
+
+    public void setFlightOwner_id(Long flightOwner_id) {
+        this.flightOwner_id = flightOwner_id;
     }
 }

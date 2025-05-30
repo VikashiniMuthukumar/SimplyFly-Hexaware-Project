@@ -3,6 +3,8 @@ package com.hexaware.simplyfly.entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -23,6 +25,7 @@ public class FlightOwner {
     @MapsId
     private User user;
 
+    
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
     private List<Flight> flights = new ArrayList<>();
 

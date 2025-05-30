@@ -1,36 +1,31 @@
 package com.hexaware.simplyfly.dto;
 
-import com.hexaware.simplyfly.entities.User;
-
 public class AdminDTO {
-	private Long id;
-    private User user;
-    
+    private Long admin_id;
+    private Long user_id;
+
     public AdminDTO() {
-    	super();
+       super();
     }
-    
-	public AdminDTO(Long id, User user) {
-		super();
-		this.id = id;
-		this.user = user;
-	}
 
-	public Long getId() {
-		return id;
-	}
+    public AdminDTO(Long admin_id, Long user_id) {
+        this.admin_id = admin_id;
+        this.user_id = user_id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public Long getAdmin_id() {
+        return admin_id;
+    }
 
-	public User getUser() {
-		return user;
-	}
+    public void setAdmin_id(Long admin_id) {
+        this.admin_id = admin_id;
+    }
 
-	public void setUser(User user) {
-		this.user = user;
-	}
-    
-    
+    public Long getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(Long user_id) {
+        this.user_id = user_id;
+    }
 }

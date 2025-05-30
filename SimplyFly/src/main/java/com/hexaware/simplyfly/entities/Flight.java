@@ -3,6 +3,8 @@ package com.hexaware.simplyfly.entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -31,6 +33,7 @@ public class Flight {
 
     private int checkInBaggageLimit;
 
+    
     @ManyToOne
     @JoinColumn(name = "owner_id")
     private FlightOwner owner;
@@ -119,5 +122,8 @@ public class Flight {
 		this.routes = routes;
 	}
 
+
+
+	
 	
 }

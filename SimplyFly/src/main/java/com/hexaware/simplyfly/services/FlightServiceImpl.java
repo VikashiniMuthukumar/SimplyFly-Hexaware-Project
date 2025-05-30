@@ -7,8 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.hexaware.simplyfly.dto.FlightDTO;
 import com.hexaware.simplyfly.entities.Flight;
-import com.hexaware.simplyfly.entities.FlightOwner;
-import com.hexaware.simplyfly.repositories.FlightOwnerRepository;
 import com.hexaware.simplyfly.repositories.FlightRepository;
 
 import jakarta.transaction.Transactional;
@@ -28,7 +26,6 @@ public class FlightServiceImpl implements IFlightService {
 		flight.setTotalSeats(flightDTO.getTotalSeats());
 		flight.setCabinBaggageLimit(flightDTO.getCabinBaggageLimit());
 		flight.setCheckInBaggageLimit(flightDTO.getCheckInBaggageLimit());
-
 		return flightrepo.save(flight);
 	}
 

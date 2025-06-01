@@ -5,14 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.hexaware.simplyfly.dto.FlightDTO;
 import com.hexaware.simplyfly.entities.Flight;
@@ -32,27 +25,27 @@ public class FlightRestController {
     private IFlightService flightService;
 
     @PostMapping
-    public ResponseEntity<Flight> createFlight(@Valid @RequestBody FlightDTO dto) throws FlightOwnerNotFoundException {
+    public ResponseEntity<String> createFlight(@Valid @RequestBody FlightDTO dto) throws FlightOwnerNotFoundException {
         log.info("Creating Flight with data: {}", dto);
         Flight flight = flightService.createFlight(dto);
         log.info("Flight created with ID: {}", flight.getFlight_id());
-        return new ResponseEntity<>(flight, HttpStatus.CREATED);
+        return new ResponseEntity<>("Flight created successfully with ID: " + flight.getFlight_id(), HttpStatus.CREATED);
     }
 
     @PutMapping("/{flightId}")
-    public ResponseEntity<Flight> updateFlight(@PathVariable Long flightId, @Valid @RequestBody FlightDTO dto) throws FlightNotFoundException, FlightOwnerNotFoundException {
+    public ResponseEntity<String> updateFlight(@PathVariable Long flightId, @Valid @RequestBody FlightDTO dto) throws FlightNotFoundException, FlightOwnerNotFoundException {
         log.info("Updating Flight with ID: {}", flightId);
         Flight flight = flightService.updateFlight(flightId, dto);
         log.info("Flight updated: {}", flight);
-        return ResponseEntity.ok(flight);
+        return ResponseEntity.ok("Flight updated successfully for ID: " + flight.getFlight_id());
     }
 
     @DeleteMapping("/{flightId}")
-    public ResponseEntity<Void> deleteFlight(@PathVariable Long flightId) throws FlightNotFoundException {
+    public ResponseEntity<String> deleteFlight(@PathVariable Long flightId) throws FlightNotFoundException {
         log.warn("Deleting Flight with ID: {}", flightId);
         flightService.deleteFlight(flightId);
         log.info("Flight deleted with ID: {}", flightId);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok("Flight deleted successfully for ID: " + flightId);
     }
 
     @GetMapping("/{flightId}")

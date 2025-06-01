@@ -22,143 +22,151 @@ import com.hexaware.simplyfly.repositories.UserRepository;
 @Transactional
 public class AdminServiceImpl implements IAdminService {
 
-    @Autowired
-    private AdminRepository adminRepository;
+	@Autowired
+	private AdminRepository adminRepository;
 
-    @Autowired
-    private UserRepository userRepository;
+	@Autowired
+	private UserRepository userRepository;
 
-    @Autowired
-    private FlightRepository flightRepository;
+	@Autowired
+	private FlightRepository flightRepository;
 
-    // Admin management
+	// Admin management
 
-    @Override
-    public Admin registerAdmin(AdminDTO adminDTO) throws UserNotFoundException {
-        User user = userRepository.findById(adminDTO.getUser_id())
-            .orElseThrow(() -> new UserNotFoundException("User not found with id: " + adminDTO.getUser_id()));
+	@Override
+	public Admin registerAdmin(AdminDTO adminDTO) throws UserNotFoundException {
+		User user = userRepository.findById(adminDTO.getUser_id())
+				.orElseThrow(() -> new UserNotFoundException("User not found with id: " + adminDTO.getUser_id()));
 
-        Admin admin = new Admin();
-        admin.setUser(user);
-        admin.setAdmin_id(user.getUser_id()); // Since @MapsId, admin_id = user_id
+		Admin admin = new Admin();
+		admin.setUser(user);
 
-        return adminRepository.save(admin);
-    }
+		return adminRepository.save(admin);
+	}
 
-    @Override
-    public Admin updateAdmin(Long adminId, AdminDTO adminDTO) throws AdminNotFoundException, UserNotFoundException {
-        Admin existingAdmin = adminRepository.findById(adminId)
-            .orElseThrow(() -> new AdminNotFoundException("Admin not found with id: " + adminId));
+	@Override
+	public Admin updateAdmin(Long adminId, AdminDTO adminDTO) throws AdminNotFoundException, UserNotFoundException {
+		Admin existingAdmin = adminRepository.findById(adminId)
+				.orElseThrow(() -> new AdminNotFoundException("Admin not found with id: " + adminId));
 
-        User user = userRepository.findById(adminDTO.getUser_id())
-            .orElseThrow(() -> new UserNotFoundException("User not found with id: " + adminDTO.getUser_id()));
+		User user = userRepository.findById(adminDTO.getUser_id())
+				.orElseThrow(() -> new UserNotFoundException("User not found with id: " + adminDTO.getUser_id()));
 
-        existingAdmin.setUser(user);
-        return adminRepository.save(existingAdmin);
-    }
+		existingAdmin.setUser(user);
+		user.setAdmin(existingAdmin);
 
-    @Override
-    public boolean deleteAdmin(Long adminId) throws AdminNotFoundException {
-        if (!adminRepository.existsById(adminId)) {
-            throw new AdminNotFoundException("Admin not found with id: " + adminId);
-        }
-        adminRepository.deleteById(adminId);
-        return true;
-    }
+		return adminRepository.save(existingAdmin);
+	}
 
-    @Override
-    @Transactional(readOnly = true)
-    public Admin getAdminById(Long adminId) throws AdminNotFoundException {
-        return adminRepository.findById(adminId)
-            .orElseThrow(() -> new AdminNotFoundException("Admin not found with id: " + adminId));
-    }
+	@Override
+	public boolean deleteAdmin(Long adminId) throws AdminNotFoundException {
+		if (!adminRepository.existsById(adminId)) {
+			throw new AdminNotFoundException("Admin not found with id: " + adminId);
+		}
+		adminRepository.deleteById(adminId);
+		return true;
+	}
 
-    @Override
-    @Transactional(readOnly = true)
-    public List<Admin> getAllAdmins() {
-        return adminRepository.findAll();
-    }
+	@Override
+	@Transactional(readOnly = true)
+	public Admin getAdminById(Long adminId) throws AdminNotFoundException {
+		return adminRepository.findById(adminId)
+				.orElseThrow(() -> new AdminNotFoundException("Admin not found with id: " + adminId));
+	}
 
-    // Delegated User management
+	@Override
+	@Transactional(readOnly = true)
+	public List<Admin> getAllAdmins() {
+		return adminRepository.findAll();
+	}
 
-    @Override
-    public User addUser(UserDTO userDTO) {
-        User user = new User();
-        // Map UserDTO fields to User entity fields here...
-        // For example:
-        // user.setName(userDTO.getName());
-        // user.setEmail(userDTO.getEmail());
-        // Complete this mapping based on your UserDTO & User entity structure
-        return userRepository.save(user);
-    }
+	// Delegated User management
 
-    @Override
-    public User updateUser(Long userId, UserDTO userDTO) throws UserNotFoundException {
-        User existingUser = userRepository.findById(userId)
-            .orElseThrow(() -> new UserNotFoundException("User not found with id: " + userId));
-        // Update fields from userDTO to existingUser here...
-        return userRepository.save(existingUser);
-    }
+	@Override
+	public User addUser(UserDTO userDTO) {
+		User user = new User();
+		user.setName(userDTO.getName());
+		user.setEmail(userDTO.getEmail());
+		user.setPassword(userDTO.getPassword());
+		user.setPhoneNumber(userDTO.getPhoneNumber());
+		user.setRole(userDTO.getRole()); 
+		return userRepository.save(user);
+	}
 
-    @Override
-    public void deleteUser(Long userId) throws UserNotFoundException {
-        if (!userRepository.existsById(userId)) {
-            throw new UserNotFoundException("User not found with id: " + userId);
-        }
-        userRepository.deleteById(userId);
-    }
+	@Override
+	public User updateUser(Long userId, UserDTO userDTO) throws UserNotFoundException {
+	    User existingUser = userRepository.findById(userId)
+	            .orElseThrow(() -> new UserNotFoundException("User not found with id: " + userId));
+	    existingUser.setName(userDTO.getName());
+	    existingUser.setEmail(userDTO.getEmail());
+	    existingUser.setPassword(userDTO.getPassword());
+	    existingUser.setPhoneNumber(userDTO.getPhoneNumber());
+	    existingUser.setRole(userDTO.getRole()); 
+	    
+	    return userRepository.save(existingUser);
+	}
 
-    @Override
-    @Transactional(readOnly = true)
-    public User getUserById(Long userId) throws UserNotFoundException {
-        return userRepository.findById(userId)
-            .orElseThrow(() -> new UserNotFoundException("User not found with id: " + userId));
-    }
+	@Override
+	public void deleteUser(Long userId) throws UserNotFoundException {
+		if (!userRepository.existsById(userId)) {
+			throw new UserNotFoundException("User not found with id: " + userId);
+		}
+		userRepository.deleteById(userId);
+	}
 
-    @Override
-    @Transactional(readOnly = true)
-    public List<User> getAllUsers() {
-        return userRepository.findAll();
-    }
+	@Override
+	@Transactional(readOnly = true)
+	public User getUserById(Long userId) throws UserNotFoundException {
+		return userRepository.findById(userId)
+				.orElseThrow(() -> new UserNotFoundException("User not found with id: " + userId));
+	}
 
-    // Delegated Flight management
+	@Override
+	@Transactional(readOnly = true)
+	public List<User> getAllUsers() {
+		return userRepository.findAll();
+	}
 
-    @Override
-    public Flight addFlight(FlightDTO flightDTO) {
-        Flight flight = new Flight();
-        // Map FlightDTO fields to Flight entity fields here...
-        // For example:
-        // flight.setFlightNumber(flightDTO.getFlightNumber());
-        // flight.setCarrier(flightDTO.getCarrier());
-        // Complete this mapping based on your FlightDTO & Flight entity structure
-        return flightRepository.save(flight);
-    }
+	// Delegated Flight management
 
-    @Override
-    public Flight updateFlight(Long flightId, FlightDTO flightDTO) {
-        Flight existingFlight = flightRepository.findById(flightId).orElse(null);
-        if (existingFlight == null) {
-            // Could throw FlightNotFoundException or handle gracefully
-            return null;
-        }
-        // Update fields from flightDTO to existingFlight here...
-        return flightRepository.save(existingFlight);
-    }
+	@Override
+	public Flight addFlight(FlightDTO flightDTO) {
+	    Flight flight = new Flight();
+	    flight.setName(flightDTO.getName());
+        flight.setFlightCode(flightDTO.getFlightCode());
+        flight.setTotalSeats(flightDTO.getTotalSeats());
+        flight.setCabinBaggageLimit(flightDTO.getCabinBaggageLimit());
+        flight.setCheckInBaggageLimit(flightDTO.getCheckInBaggageLimit());
+	    
+	    return flightRepository.save(flight);
+	}
 
-    @Override
-    public void deleteFlight(Long flightId) {
-        flightRepository.deleteById(flightId);
-    }
 
-    @Override
-    @Transactional(readOnly = true)
-    public List<Flight> getAllFlights() {
-        return flightRepository.findAll();
-    }
+	@Override
+	public Flight updateFlight(Long flightId, FlightDTO flightDTO) {
+		Flight existingFlight = flightRepository.findById(flightId).orElse(null);
+		if (existingFlight == null) {
+			// Could throw FlightNotFoundException or handle gracefully
+			return null;
+		}
+		// Update fields from flightDTO to existingFlight here...
+		return flightRepository.save(existingFlight);
+	}
 
-    @Override
-    @Transactional(readOnly = true)
-    public Flight getFlightById(Long flightId) {
-        return flightRepository.findById(flightId).orElse(null);
-    }
+	@Override
+	public void deleteFlight(Long flightId) {
+		flightRepository.deleteById(flightId);
+	}
+
+	@Override
+	@Transactional
+	public List<Flight> getAllFlights() {
+		return flightRepository.findAll();
+	}
+
+	@Override
+	@Transactional
+	public Flight getFlightById(Long flightId) {
+		return flightRepository.findById(flightId).orElse(null);
+	}
 }

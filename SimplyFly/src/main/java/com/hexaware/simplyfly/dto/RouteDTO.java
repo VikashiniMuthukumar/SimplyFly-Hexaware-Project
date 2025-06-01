@@ -2,7 +2,10 @@ package com.hexaware.simplyfly.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
-import jakarta.validation.constraints.NotBlank;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PositiveOrZero;
 import jakarta.validation.constraints.Size;
@@ -11,18 +14,20 @@ public class RouteDTO {
 
     private Long route_id;
 
-    @NotBlank
+    @NotNull
     @Size(max = 50, message = "Origin must be at most 50 characters")
     private String origin;
 
-    @NotBlank
+    @NotNull
     @Size(max = 50, message = "Destination must be at most 50 characters")
     private String destination;
 
     @NotNull
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
     private LocalDateTime departureTime;
 
     @NotNull
+    @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss")
     private LocalDateTime arrivalTime;
 
     @NotNull
@@ -32,6 +37,7 @@ public class RouteDTO {
     @NotNull
     private Long flight_id;
 
+    @JsonIgnore
     private List<BookingDTO> bookings;
 
     public RouteDTO() {}
@@ -112,4 +118,13 @@ public class RouteDTO {
     public void setBookings(List<BookingDTO> bookings) {
         this.bookings = bookings;
     }
+
+	@Override
+	public String toString() {
+		return "RouteDTO [route_id=" + route_id + ", origin=" + origin + ", destination=" + destination
+				+ ", departureTime=" + departureTime + ", arrivalTime=" + arrivalTime + ", baseFare=" + baseFare
+				+ ", flight_id=" + flight_id + ", bookings=" + bookings + "]";
+	}
+    
+    
 }

@@ -34,4 +34,11 @@ public class AdminDTO {
     public void setUser_id(Long user_id) {
         this.user_id = user_id;
     }
+
+	@Override
+	public String toString() {
+		return "AdminDTO [admin_id=" + admin_id + ", user_id=" + user_id + "]";
+	}
+    
+    
 }

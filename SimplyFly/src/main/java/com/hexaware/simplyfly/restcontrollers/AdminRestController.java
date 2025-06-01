@@ -5,14 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.hexaware.simplyfly.dto.AdminDTO;
 import com.hexaware.simplyfly.dto.FlightDTO;
@@ -24,7 +17,7 @@ import com.hexaware.simplyfly.exceptions.AdminNotFoundException;
 import com.hexaware.simplyfly.exceptions.UserNotFoundException;
 import com.hexaware.simplyfly.services.IAdminService;
 
-import jakarta.validation.Valid;  // or javax.validation.Valid based on your setup
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -38,25 +31,25 @@ public class AdminRestController {
     // Admin endpoints
 
     @PostMapping
-    public ResponseEntity<Admin> registerAdmin(@Valid @RequestBody AdminDTO adminDTO) throws UserNotFoundException {
+    public ResponseEntity<String> registerAdmin(@Valid @RequestBody AdminDTO adminDTO) throws UserNotFoundException {
         log.info("Registering new admin: {}", adminDTO);
-        Admin admin = adminService.registerAdmin(adminDTO);
-        return new ResponseEntity<>(admin, HttpStatus.CREATED);
+        adminService.registerAdmin(adminDTO);
+        return new ResponseEntity<>("Admin successfully registered.", HttpStatus.CREATED);
     }
 
     @PutMapping("/{adminId}")
-    public ResponseEntity<Admin> updateAdmin(@PathVariable Long adminId, @Valid @RequestBody AdminDTO adminDTO)
+    public ResponseEntity<String> updateAdmin(@PathVariable Long adminId, @Valid @RequestBody AdminDTO adminDTO)
             throws AdminNotFoundException, UserNotFoundException {
         log.info("Updating admin with ID: {}", adminId);
-        Admin updated = adminService.updateAdmin(adminId, adminDTO);
-        return ResponseEntity.ok(updated);
+        adminService.updateAdmin(adminId, adminDTO);
+        return ResponseEntity.ok("Admin updated successfully.");
     }
 
     @DeleteMapping("/{adminId}")
-    public ResponseEntity<Void> deleteAdmin(@PathVariable Long adminId) throws AdminNotFoundException {
+    public ResponseEntity<String> deleteAdmin(@PathVariable Long adminId) throws AdminNotFoundException {
         log.warn("Deleting admin with ID: {}", adminId);
         adminService.deleteAdmin(adminId);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok("Admin deleted successfully.");
     }
 
     @GetMapping("/{adminId}")
@@ -75,25 +68,25 @@ public class AdminRestController {
     // User endpoints
 
     @PostMapping("/users")
-    public ResponseEntity<User> addUser(@Valid @RequestBody UserDTO userDTO) {
+    public ResponseEntity<String> addUser(@Valid @RequestBody UserDTO userDTO) {
         log.info("Adding new user: {}", userDTO);
-        User user = adminService.addUser(userDTO);
-        return new ResponseEntity<>(user, HttpStatus.CREATED);
+        adminService.addUser(userDTO);
+        return new ResponseEntity<>("User successfully added.", HttpStatus.CREATED);
     }
 
     @PutMapping("/users/{userId}")
-    public ResponseEntity<User> updateUser(@PathVariable Long userId, @Valid @RequestBody UserDTO userDTO)
+    public ResponseEntity<String> updateUser(@PathVariable Long userId, @Valid @RequestBody UserDTO userDTO)
             throws UserNotFoundException {
         log.info("Updating user with ID: {}", userId);
-        User user = adminService.updateUser(userId, userDTO);
-        return ResponseEntity.ok(user);
+        adminService.updateUser(userId, userDTO);
+        return ResponseEntity.ok("User updated successfully.");
     }
 
     @DeleteMapping("/users/{userId}")
-    public ResponseEntity<Void> deleteUser(@PathVariable Long userId) throws UserNotFoundException {
+    public ResponseEntity<String> deleteUser(@PathVariable Long userId) throws UserNotFoundException {
         log.warn("Deleting user with ID: {}", userId);
         adminService.deleteUser(userId);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok("User deleted successfully.");
     }
 
     @GetMapping("/users/{userId}")
@@ -112,24 +105,24 @@ public class AdminRestController {
     // Flight endpoints
 
     @PostMapping("/flights")
-    public ResponseEntity<Flight> addFlight(@Valid @RequestBody FlightDTO flightDTO) {
+    public ResponseEntity<String> addFlight(@Valid @RequestBody FlightDTO flightDTO) {
         log.info("Adding new flight: {}", flightDTO);
-        Flight flight = adminService.addFlight(flightDTO);
-        return new ResponseEntity<>(flight, HttpStatus.CREATED);
+        adminService.addFlight(flightDTO);
+        return new ResponseEntity<>("Flight successfully added.", HttpStatus.CREATED);
     }
 
     @PutMapping("/flights/{flightId}")
-    public ResponseEntity<Flight> updateFlight(@PathVariable Long flightId, @Valid @RequestBody FlightDTO flightDTO) {
+    public ResponseEntity<String> updateFlight(@PathVariable Long flightId, @Valid @RequestBody FlightDTO flightDTO) {
         log.info("Updating flight with ID: {}", flightId);
-        Flight flight = adminService.updateFlight(flightId, flightDTO);
-        return ResponseEntity.ok(flight);
+        adminService.updateFlight(flightId, flightDTO);
+        return ResponseEntity.ok("Flight updated successfully.");
     }
 
     @DeleteMapping("/flights/{flightId}")
-    public ResponseEntity<Void> deleteFlight(@PathVariable Long flightId) {
+    public ResponseEntity<String> deleteFlight(@PathVariable Long flightId) {
         log.warn("Deleting flight with ID: {}", flightId);
         adminService.deleteFlight(flightId);
-        return ResponseEntity.noContent().build();
+        return ResponseEntity.ok("Flight deleted successfully.");
     }
 
     @GetMapping("/flights")

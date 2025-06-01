@@ -89,4 +89,12 @@ public class PaymentsDTO {
     public void setBooking_id(Long booking_id) {
         this.booking_id = booking_id;
     }
+
+	@Override
+	public String toString() {
+		return "PaymentsDTO [payment_id=" + payment_id + ", method=" + method + ", amount=" + amount
+				+ ", paymentStatus=" + paymentStatus + ", paidAt=" + paidAt + ", booking_id=" + booking_id + "]";
+	}
+    
+    
 }

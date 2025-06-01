@@ -24,14 +24,14 @@ public class FlightOwnerServiceImpl implements IFlightOwnerService {
 
     @Override
     public FlightOwner createFlightOwner(FlightOwnerDTO dto) throws UserNotFoundException {
-        FlightOwner owner = new FlightOwner();
-
         User user = userRepository.findById(dto.getUser_id())
                 .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + dto.getUser_id()));
 
-        owner.setUser(user);
+        FlightOwner owner = new FlightOwner();
+        owner.setUser(user);  
 
         return flightOwnerRepository.save(owner);
+
     }
 
     @Override
@@ -44,19 +44,22 @@ public class FlightOwnerServiceImpl implements IFlightOwnerService {
 
         owner.setUser(user);
 
-        // Optionally update flights here if needed
-
         return flightOwnerRepository.save(owner);
     }
 
     @Override
     public boolean deleteFlightOwner(Long owner_id) throws FlightOwnerNotFoundException {
-        if (!flightOwnerRepository.existsById(owner_id)) {
-            throw new FlightOwnerNotFoundException("Flight Owner not found with ID: " + owner_id);
+        FlightOwner owner = flightOwnerRepository.findById(owner_id)
+                .orElseThrow(() -> new FlightOwnerNotFoundException("Flight Owner not found with ID: " + owner_id));
+
+        if (!owner.getFlights().isEmpty()) {
+            throw new RuntimeException("Cannot delete FlightOwner with active flights. Delete or reassign flights first.");
         }
-        flightOwnerRepository.deleteById(owner_id);
+
+        flightOwnerRepository.delete(owner);
         return true;
     }
+
 
     @Override
     public FlightOwner getFlightOwnerById(Long owner_id) throws FlightOwnerNotFoundException {

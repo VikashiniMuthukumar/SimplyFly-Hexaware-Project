@@ -2,6 +2,10 @@ package com.hexaware.simplyfly.entities;
 
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.hexaware.simplyfly.enums.RefundStatus;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -15,9 +19,6 @@ import jakarta.persistence.OneToOne;
 
 @Entity
 public class Cancellation {
-	public enum RefundStatus {
-		INITIATED, SUCCESSFUL, FAILED
-	}
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -35,10 +36,12 @@ public class Cancellation {
 
 	@OneToOne
 	@JoinColumn(name = "booking_id")
+	@JsonBackReference
 	private Booking booking;
 
 	@ManyToOne
 	@JoinColumn(name = "cancelled_by")
+	@JsonIgnore
 	private User cancelledBy;
 
 	public Cancellation() {
@@ -111,6 +114,13 @@ public class Cancellation {
 
 	public void setCancelledBy(User cancelledBy) {
 		this.cancelledBy = cancelledBy;
+	}
+
+	@Override
+	public String toString() {
+		return "Cancellation [cancellation_id=" + cancellation_id + ", reason=" + reason + ", refundAmount="
+				+ refundAmount + ", refundStatus=" + refundStatus + ", cancelledAt=" + cancelledAt + ", booking="
+				+ booking + ", cancelledBy=" + cancelledBy + "]";
 	}
 
 	

@@ -1,10 +1,13 @@
 package com.hexaware.simplyfly.dto;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import jakarta.validation.constraints.Min;
 
 public class FlightDTO {
 
@@ -32,7 +35,7 @@ public class FlightDTO {
 
     @NotNull
     private Long owner_id;
-
+    @JsonIgnore
     private List<RouteDTO> routes;
 
     public FlightDTO() {}
@@ -114,4 +117,13 @@ public class FlightDTO {
     public void setRoutes(List<RouteDTO> routes) {
         this.routes = routes;
     }
+
+	@Override
+	public String toString() {
+		return "FlightDTO [flight_id=" + flight_id + ", name=" + name + ", flightCode=" + flightCode + ", totalSeats="
+				+ totalSeats + ", cabinBaggageLimit=" + cabinBaggageLimit + ", checkInBaggageLimit="
+				+ checkInBaggageLimit + ", owner_id=" + owner_id + ", routes=" + routes + "]";
+	}
+    
+    
 }

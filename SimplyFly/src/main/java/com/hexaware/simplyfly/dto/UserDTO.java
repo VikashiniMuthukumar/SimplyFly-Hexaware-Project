@@ -123,4 +123,13 @@ public class UserDTO {
     public void setFlightOwner_id(Long flightOwner_id) {
         this.flightOwner_id = flightOwner_id;
     }
+
+	@Override
+	public String toString() {
+		return "UserDTO [user_id=" + user_id + ", name=" + name + ", email=" + email + ", password=" + password
+				+ ", phoneNumber=" + phoneNumber + ", role=" + role + ", registeredAt=" + registeredAt + ", admin_id="
+				+ admin_id + ", flightOwner_id=" + flightOwner_id + "]";
+	}
+    
+    
 }

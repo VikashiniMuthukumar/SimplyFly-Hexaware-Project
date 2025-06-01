@@ -4,6 +4,9 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -31,9 +34,11 @@ public class Route {
 
     @ManyToOne
     @JoinColumn(name = "flight_id")
+    @JsonBackReference
     private Flight flight;
 
     @OneToMany(mappedBy = "route", cascade = CascadeType.ALL)
+    @JsonBackReference
     private List<Booking> bookings = new ArrayList<>();
 
 	public Route() {
@@ -116,5 +121,14 @@ public class Route {
 	public void setBookings(List<Booking> bookings) {
 		this.bookings = bookings;
 	}
+
+	@Override
+	public String toString() {
+		return "Route [route_id=" + route_id + ", origin=" + origin + ", destination=" + destination
+				+ ", departureTime=" + departureTime + ", arrivalTime=" + arrivalTime + ", baseFare=" + baseFare
+				+ ", flight=" + flight + ", bookings=" + bookings + "]";
+	}
+	
+	
 
 }

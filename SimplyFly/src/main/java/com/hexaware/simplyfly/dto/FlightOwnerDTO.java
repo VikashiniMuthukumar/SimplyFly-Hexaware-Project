@@ -1,6 +1,9 @@
 package com.hexaware.simplyfly.dto;
 
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.validation.constraints.NotNull;
 
 public class FlightOwnerDTO {
@@ -10,6 +13,7 @@ public class FlightOwnerDTO {
     @NotNull(message = "User ID is required for Flight Owner")
     private Long user_id;
 
+    @JsonIgnore
     private List<FlightDTO> flights;
 
     public FlightOwnerDTO() {}
@@ -43,4 +47,11 @@ public class FlightOwnerDTO {
     public void setFlights(List<FlightDTO> flights) {
         this.flights = flights;
     }
+
+	@Override
+	public String toString() {
+		return "FlightOwnerDTO [owner_id=" + owner_id + ", user_id=" + user_id + ", flights=" + flights + "]";
+	}
+    
+    
 }

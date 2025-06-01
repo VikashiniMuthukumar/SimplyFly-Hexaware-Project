@@ -8,6 +8,8 @@ import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.MapsId;
@@ -21,12 +23,14 @@ public class FlightOwner {
     private Long owner_id;
 
     @OneToOne
-    @JoinColumn(name = "owner_id")
+    @JoinColumn(name = "user_id", nullable = false)
+    @JsonManagedReference
     @MapsId
     private User user;
 
     
     @OneToMany(mappedBy = "owner", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<Flight> flights = new ArrayList<>();
 
 	public FlightOwner() {
@@ -62,6 +66,11 @@ public class FlightOwner {
 
 	public void setFlights(List<Flight> flights) {
 		this.flights = flights;
+	}
+
+	@Override
+	public String toString() {
+		return "FlightOwner [owner_id=" + owner_id + ", user=" + user + ", flights=" + flights + "]";
 	}
 
 	

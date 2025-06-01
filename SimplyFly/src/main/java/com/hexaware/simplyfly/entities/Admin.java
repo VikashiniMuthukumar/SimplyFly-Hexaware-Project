@@ -1,38 +1,49 @@
 package com.hexaware.simplyfly.entities;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import jakarta.persistence.CascadeType;
+// or javax.persistence.* depending on your setup
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.MapsId;
 import jakarta.persistence.OneToOne;
+import jakarta.persistence.Table;
 
 @Entity
+@Table(name = "admin")
 public class Admin {
-    @Id
-    @Column(name = "admin_id")
-    private Long admin_id;
 
-    @OneToOne
-    @JoinColumn(name = "admin_id")
-    @MapsId
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  // This tells Hibernate to use auto-increment
+    @Column(name = "admin_id")
+    private Long admin_id;  // Use wrapper class Long, not primitive long
+
+    @OneToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id", referencedColumnName = "user_id", nullable = false)
+    @JsonManagedReference
     private User user;
 
-	public Admin() {
-		super();
-	}
 
-	public Admin(Long admin_id, User user) {
-		super();
-		this.admin_id = admin_id;
-		this.user = user;
-	}
+    // Default constructor
+    public Admin() {
+    }
 
-	public Long getAdmin_id() {
+    // Constructor with fields
+    public Admin(User user) {
+        this.user = user;
+    }
+
+
+	public long getAdmin_id() {
 		return admin_id;
 	}
 
-	public void setAdmin_id(Long admin_id) {
+	public void setAdmin_id(long admin_id) {
 		this.admin_id = admin_id;
 	}
 
@@ -42,7 +53,12 @@ public class Admin {
 
 	public void setUser(User user) {
 		this.user = user;
-	}    
-	
-	
+	}
+
+	@Override
+	public String toString() {
+		return "Admin [admin_id=" + admin_id + ", user=" + user + "]";
+	}
+
+    
 }

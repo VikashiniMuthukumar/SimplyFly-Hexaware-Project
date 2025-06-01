@@ -2,6 +2,8 @@ package com.hexaware.simplyfly.entities;
 
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.hexaware.simplyfly.enums.BookingStatus;
 
 import jakarta.persistence.CascadeType;
@@ -33,16 +35,20 @@ public class Booking {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
+    @JsonBackReference
     private User user;
 
     @ManyToOne
     @JoinColumn(name = "route_id")
+    @JsonManagedReference
     private Route route;
 
     @OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private Payments payment;
 
     @OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private Cancellation cancellation;
 
 	public Booking() {

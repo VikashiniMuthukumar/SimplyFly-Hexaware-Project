@@ -3,7 +3,10 @@ package com.hexaware.simplyfly.entities;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
@@ -16,6 +19,9 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 
 @Entity
+@JsonIdentityInfo(
+		  generator = ObjectIdGenerators.PropertyGenerator.class,
+		  property = "flight_id")
 public class Flight {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,9 +42,11 @@ public class Flight {
     
     @ManyToOne
     @JoinColumn(name = "owner_id")
+    @JsonIgnore
     private FlightOwner owner;
 
     @OneToMany(mappedBy = "flight", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private List<Route> routes = new ArrayList<>();
     
 	public Flight() {
@@ -120,6 +128,13 @@ public class Flight {
 
 	public void setRoutes(List<Route> routes) {
 		this.routes = routes;
+	}
+
+	@Override
+	public String toString() {
+		return "Flight [flight_id=" + flight_id + ", name=" + name + ", flightCode=" + flightCode + ", totalSeats="
+				+ totalSeats + ", cabinBaggageLimit=" + cabinBaggageLimit + ", checkInBaggageLimit="
+				+ checkInBaggageLimit + ", owner=" + owner + ", routes=" + routes + "]";
 	}
 
 

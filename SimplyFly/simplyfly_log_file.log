@@ -27,3 +27,2135 @@
 [INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
 [INFO] : HikariPool-1 - Shutdown initiated...
 [INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 8116 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1383 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@655909e2
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.625 seconds (process running for 13.446)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11628 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 68 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1123 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34e25492
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.949 seconds (process running for 5.516)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 3 ms
+[INFO] : Init duration for springdoc-openapi is: 1132 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 14144 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 67 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1192 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aeaff64
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.99 seconds (process running for 5.642)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 901 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 17876 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 62 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1192 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aeaff64
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.319 seconds (process running for 5.85)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 891 ms
+[INFO] : Updating user with ID: 101
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@166b9ef7
+[INFO] : User registered with ID: 1
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@487795ba
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@422df27c
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@6f90292f
+[INFO] : User registered with ID: 2
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@6e31ca9c
+[INFO] : User registered with ID: 3
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@6207d299
+[INFO] : User registered with ID: 4
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@216d9d8b
+[INFO] : User registered with ID: 5
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@50410d1c
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@436ecae8
+[INFO] : FlightOwner created with ID: 3
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@6110cb7
+[INFO] : FlightOwner created with ID: 1
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@7e4fe310
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@19477aea
+[INFO] : FlightOwner created with ID: 2
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@30ecb1ba
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@30600cbb
+[INFO] : FlightOwner created with ID: 4
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@593870a5
+[INFO] : FlightOwner created with ID: 5
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@7747e8ce
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@6b251ba6
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@6f6f1da2
+[WARN] : SQL Error: 1062, SQLState: 23000
+[ERROR] : Duplicate entry 'AIR101' for key 'flight.UKj7j29duht4oswo8ylojjd5x1f'
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@504bcd65
+[INFO] : Flight created with ID: 3
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@4dcd08c0
+[INFO] : Flight created with ID: 4
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@5cc19c7b
+[INFO] : Flight created with ID: 5
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@dfec15c
+[INFO] : Flight created with ID: 6
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@5b1a73e0
+[INFO] : Route created with ID: 1
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@3d1488fa
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@560c4c00
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@24868631
+[INFO] : Route created with ID: 2
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@2ddb4a09
+[INFO] : Route created with ID: 3
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@7fe898eb
+[INFO] : Route created with ID: 4
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@7c615dd0
+[INFO] : Route created with ID: 5
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@4277d394
+[INFO] : Route created with ID: 6
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@fe0e36b
+[ERROR] : HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null identifier (com.hexaware.simplyfly.entities.Admin)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 16064 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 76 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1250 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@655909e2
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.58 seconds (process running for 6.166)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 984 ms
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@6ab185f8
+[ERROR] : HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null identifier (com.hexaware.simplyfly.entities.Admin)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 13576 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1136 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5abbb273
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.257 seconds (process running for 5.81)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 1031 ms
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@5c35c62e
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'admin_id' doesn't have a default value
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@300e6f1d
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'admin_id' doesn't have a default value
+[INFO] : Fetching all users
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=4, cancellation_id=0]
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@2cd4519e
+[INFO] : Payment created with ID: 1
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@1143b05a
+[INFO] : Payment created with ID: 2
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=4, cancellation_id=0]
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=4, cancellation_id=0]
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=2, cancellation_id=0]
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=2, cancellation_id=null]
+[INFO] : Booking created with ID: 1
+[WARN] : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m51s536ms530µs200ns).
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=2, cancellation_id=null]
+[INFO] : Booking created with ID: 2
+[INFO] : Creating booking with data: BookingDTO [booking_id=102, bookedAt=2025-06-01T09:15, status=CONFIRMED, totalFare=420.5, user_id=5, route_id=5, payment_id=5, cancellation_id=0]
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@2b2c0b0
+[INFO] : Payment created with ID: 3
+[INFO] : Creating booking with data: BookingDTO [booking_id=102, bookedAt=2025-06-01T09:15, status=CONFIRMED, totalFare=420.5, user_id=5, route_id=5, payment_id=3, cancellation_id=0]
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=5, payment_id=4, cancellation_id=null]
+[INFO] : Creating booking with data: BookingDTO [booking_id=101, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=5, payment_id=3, cancellation_id=null]
+[INFO] : Booking created with ID: 3
+[INFO] : Creating cancellation with data: com.hexaware.simplyfly.dto.CancellationDTO@4fb7f5a7
+[INFO] : Creating cancellation with data: com.hexaware.simplyfly.dto.CancellationDTO@24b723ff
+[INFO] : Cancellation created with ID: 1
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@79066048
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'admin_id' doesn't have a default value
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@174f9570
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'admin_id' doesn't have a default value
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11836 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 75 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1437 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f2b9da8
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.796 seconds (process running for 6.375)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 942 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11760 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 72 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1156 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56872fcb
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.179 seconds (process running for 5.782)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 914 ms
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@7012dee0
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'admin_id' doesn't have a default value
+[INFO] : Fetching user with ID: 1
+[INFO] : User fetched: User [user_id=1, name=Alice Smith, email=alice.smith@example.com, password=SecurePass1!, phoneNumber=+12345678901, role=PASSENGER, registeredAt=2025-06-01T13:27:14.854726, admin=null, flightOwner=com.hexaware.simplyfly.entities.FlightOwner@71e6ac01, bookings=[]]
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 2220 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 67 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1115 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34e25492
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_d2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_d2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_d2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.358 seconds (process running for 6.275)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 15536 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 68 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1140 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e93108a
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.955 seconds (process running for 5.566)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 14620 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1110 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@716ae973
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_e6`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_e6`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_e6`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.058 seconds (process running for 5.713)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 1123 ms
+[INFO] : Fetching user with ID: 1
+[INFO] : User fetched: User [user_id=1, name=Alice Smith, email=alice.smith@example.com, password=SecurePass1!, phoneNumber=+12345678901, role=PASSENGER, registeredAt=2025-06-01T13:27:14.854726, admin=null, flightOwner=null, bookings=[]]
+[INFO] : Updating user with ID: 2
+[INFO] : User updated: User [user_id=2, name=John Doe, email=john.doe@example.com, password=SecurePass123!, phoneNumber=+1234567890, role=PASSENGER, registeredAt=2025-06-01T13:35:25.272542, admin=null, flightOwner=null, bookings=[]]
+[WARN] : Deleting user with ID: 5
+[WARN] : SQL Error: 1451, SQLState: 23000
+[ERROR] : Cannot delete or update a parent row: a foreign key constraint fails (`simplyfly_db`.`flight_owner`, CONSTRAINT `FKdxx2dwk18j8to04905ggxp1ow` FOREIGN KEY (`owner_id`) REFERENCES `user` (`user_id`))
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 16964 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 67 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1364 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29c25bbc
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_f0`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_f0`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_f0`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.956 seconds (process running for 6.598)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 15 ms
+[INFO] : Init duration for springdoc-openapi is: 2682 ms
+[WARN] : Deleting user with ID: 5
+[WARN] : SQL Error: 1451, SQLState: 23000
+[ERROR] : Cannot delete or update a parent row: a foreign key constraint fails (`simplyfly_db`.`flight_owner`, CONSTRAINT `FKdxx2dwk18j8to04905ggxp1ow` FOREIGN KEY (`owner_id`) REFERENCES `user` (`user_id`))
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11168 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 68 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1122 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@403f7aa2
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_fa`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_fa`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_fa`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.013 seconds (process running for 5.574)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 966 ms
+[WARN] : Deleting user with ID: 5
+[WARN] : SQL Error: 1451, SQLState: 23000
+[ERROR] : Cannot delete or update a parent row: a foreign key constraint fails (`simplyfly_db`.`flight_owner`, CONSTRAINT `FKdxx2dwk18j8to04905ggxp1ow` FOREIGN KEY (`owner_id`) REFERENCES `user` (`user_id`))
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 9780 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1188 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65f5cae3
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_104`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_104`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_104`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.003 seconds (process running for 5.643)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 948 ms
+[WARN] : Deleting user with ID: 5
+[WARN] : SQL Error: 1451, SQLState: 23000
+[ERROR] : Cannot delete or update a parent row: a foreign key constraint fails (`simplyfly_db`.`flight_owner`, CONSTRAINT `FKdxx2dwk18j8to04905ggxp1ow` FOREIGN KEY (`owner_id`) REFERENCES `user` (`user_id`))
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 15128 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1102 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56872fcb
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_10e`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_10e`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_10e`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11932 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 78 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1114 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b3085a3
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_118`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FK53cmsbsg288krahb28ylj6680 foreign key (user_owner_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_118`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_118`, CONSTRAINT `FK53cmsbsg288krahb28ylj6680` FOREIGN KEY (`user_owner_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.103 seconds (process running for 5.666)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 7640 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1184 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c4cebd
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.05 seconds (process running for 5.595)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 2170 ms
+[WARN] : Deleting user with ID: 5
+[INFO] : User deleted with ID: 5
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11188 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 71 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1101 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65f5cae3
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.91 seconds (process running for 5.444)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 2 ms
+[INFO] : Init duration for springdoc-openapi is: 2748 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 19884 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1121 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38cb1606
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.923 seconds (process running for 5.52)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 3 ms
+[INFO] : Init duration for springdoc-openapi is: 997 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 8628 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1127 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@563843f1
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.877 seconds (process running for 5.452)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 884 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 15644 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 9392 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 103 ms. Found 8 JPA repository interfaces.
+[INFO] : Finished Spring Data repository scanning in 122 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1955 ms
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1989 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f49e81a
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5abbb273
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 7.869 seconds (process running for 8.716)
+[WARN] : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 2 ms
+[INFO] : Init duration for springdoc-openapi is: 1116 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 14440 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 64 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1113 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@445058e8
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.986 seconds (process running for 5.523)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 909 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 19372 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1200 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d5574c7
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.957 seconds (process running for 5.471)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 903 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 4844 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1204 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea5ee0
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.902 seconds (process running for 5.459)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 939 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 17608 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 72 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1146 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65f5cae3
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.101 seconds (process running for 5.625)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 3 ms
+[INFO] : Init duration for springdoc-openapi is: 914 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 12672 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 84 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1480 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@459bf87c
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.353 seconds (process running for 5.858)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 18644 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 72 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1133 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1aaf46e6
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.834 seconds (process running for 5.367)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 4 ms
+[INFO] : Init duration for springdoc-openapi is: 847 ms
+[INFO] : Fetching all users
+[INFO] : Total users fetched: 4
+[WARN] : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m9s775ms598µs100ns).
+[INFO] : Fetching Route with ID: 1
+[INFO] : Route fetched: com.hexaware.simplyfly.entities.Route@44dcd096
+[INFO] : Updating Route with ID: 6
+[INFO] : Route updated: com.hexaware.simplyfly.entities.Route@7ad9779c
+[WARN] : Deleting Route with ID: 6
+[INFO] : Route deleted with ID: 6
+[INFO] : Fetching all Routes
+[INFO] : Total Routes fetched: 5
+[INFO] : Fetching all Routes
+[INFO] : Total Routes fetched: 5
+[INFO] : Fetching Payment with ID: 1
+[INFO] : Payment fetched: com.hexaware.simplyfly.entities.Payments@282c51e
+[INFO] : Updating Payment with ID: 1
+[INFO] : Payment updated: com.hexaware.simplyfly.entities.Payments@29ca63b5
+[INFO] : Updating Payment with ID: 2
+[INFO] : Payment updated: com.hexaware.simplyfly.entities.Payments@1f944121
+[INFO] : Updating Payment with ID: 2
+[INFO] : Payment updated: com.hexaware.simplyfly.entities.Payments@71f8ee48
+[INFO] : Updating Payment with ID: 2
+[INFO] : Payment updated: com.hexaware.simplyfly.entities.Payments@2cdb1cf5
+[INFO] : Updating Payment with ID: 3
+[WARN] : SQL Error: 1062, SQLState: 23000
+[ERROR] : Duplicate entry '3' for key 'payments.UKnuscjm6x127hkb15kcb8n56wo'
+[WARN] : Deleting Payment with ID: 3
+[INFO] : Payment deleted with ID: 3
+[INFO] : Fetching all Payments
+[INFO] : Total Payments fetched: 2
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@4c5a447a
+[INFO] : Payment created with ID: 4
+[INFO] : Fetching Flight with ID: 1
+[INFO] : Flight fetched: com.hexaware.simplyfly.entities.Flight@31aabcd6
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 9624 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 63 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1172 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@655909e2
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.317 seconds (process running for 5.934)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 3 ms
+[INFO] : Updating Flight with ID: 1
+[INFO] : Flight updated: com.hexaware.simplyfly.entities.Flight@38554eb7
+[WARN] : Deleting Flight with ID: 5
+[INFO] : Flight deleted with ID: 5
+[INFO] : Fetching all Flights
+[INFO] : Total Flights fetched: 3
+[INFO] : Fetching FlightOwner with ID: 1
+[INFO] : FlightOwner fetched: com.hexaware.simplyfly.entities.FlightOwner@712e461a
+[INFO] : Updating FlightOwner with ID: 1
+[INFO] : FlightOwner updated: com.hexaware.simplyfly.entities.FlightOwner@61c747f8
+[WARN] : Deleting FlightOwner with ID: 4
+[INFO] : FlightOwner deleted with ID: 4
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 6612 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 65 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1124 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32f308c6
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.948 seconds (process running for 5.483)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[WARN] : Deleting FlightOwner with ID: 4
+[INFO] : FlightOwner deleted with ID: 4
+[INFO] : Init duration for springdoc-openapi is: 2415 ms
+[WARN] : Deleting FlightOwner with ID: 4
+[INFO] : FlightOwner deleted with ID: 4
+[INFO] : Fetching all FlightOwners
+[INFO] : Total FlightOwners fetched: 4
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@393ac336
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@31e6454e
+[WARN] : SQL Error: 1062, SQLState: 23000
+[ERROR] : Duplicate entry 'john.doe@example.com' for key 'user.UKob8kqyqqgmefl0aco34akdtpe'
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@249513dd
+[INFO] : User registered with ID: 7
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@21f6e1ad
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'user_id' doesn't have a default value
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 17692 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 82 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1278 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41059616
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1ae`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1ae`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1ae`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.139 seconds (process running for 5.771)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 825 ms
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@39dd86ff
+[WARN] : SQL Error: 1364, SQLState: HY000
+[ERROR] : Field 'owner_id' doesn't have a default value
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 16640 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 62 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1094 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a7a6d34
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1b8`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1b8`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1b8`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.866 seconds (process running for 5.444)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 18648 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1068 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea5ee0
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1c2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1c2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1c2`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.023 seconds (process running for 5.639)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 4332 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 65 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1108 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ae66c98
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[WARN] : GenerationTarget encountered exception accepting command : Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1cc`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table flight_owner add constraint FKibq8ycnffudk77x3ck9qcb4bq foreign key (user_id) references user (user_id)" via JDBC [Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1cc`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:583)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:523)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:455)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:276)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:119)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:322)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:457)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1506)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1364)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1353)
+	at com.hexaware.simplyfly.SimplyFlyApplication.main(SimplyFlyApplication.java:10)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`simplyfly_db`.`#sql-13b0_1cc`, CONSTRAINT `FKibq8ycnffudk77x3ck9qcb4bq` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:770)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80)
+	... 36 common frames omitted
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.037 seconds (process running for 5.648)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 18352 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1155 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@698ac187
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.579 seconds (process running for 6.101)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 5 ms
+[INFO] : Init duration for springdoc-openapi is: 1144 ms
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@6b141436
+[INFO] : User registered with ID: 1
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@56a63da4
+[INFO] : User registered with ID: 2
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@8aa80e6
+[INFO] : User registered with ID: 3
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@7407ce85
+[INFO] : User registered with ID: 4
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@2fc18b09
+[INFO] : User registered with ID: 5
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 18576 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 71 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1144 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe08eaf
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.083 seconds (process running for 5.632)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 959 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 14800 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 59 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1075 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1aaf46e6
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.765 seconds (process running for 5.267)
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 15108 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 65 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1255 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fd9dbe6
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.096 seconds (process running for 5.647)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 885 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 5112 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 93 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1216 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a7a6d34
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.453 seconds (process running for 5.96)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@241fb907
+[INFO] : FlightOwner created with ID: 1
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@622f0284
+[INFO] : Flight created with ID: 1
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@50c06258
+[INFO] : FlightOwner created with ID: 5
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@4384fd71
+[INFO] : User registered with ID: 6
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@63afcf40
+[INFO] : User registered with ID: 7
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@7feaf3a9
+[INFO] : User registered with ID: 8
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@1d002c26
+[INFO] : User registered with ID: 9
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@2975499f
+[WARN] : SQL Error: 1062, SQLState: 23000
+[ERROR] : Duplicate entry 'susan.clark@example.com' for key 'user.UKob8kqyqqgmefl0aco34akdtpe'
+[INFO] : Registering new user with data: com.hexaware.simplyfly.dto.UserDTO@1ab256de
+[INFO] : User registered with ID: 11
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@51f2cd0d
+[INFO] : FlightOwner created with ID: 6
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@3dd366da
+[INFO] : FlightOwner created with ID: 7
+[INFO] : Creating FlightOwner with data: com.hexaware.simplyfly.dto.FlightOwnerDTO@3e9b66a2
+[INFO] : FlightOwner created with ID: 8
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@29aead29
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@518d7200
+[INFO] : Flight created with ID: 2
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@5b882a8a
+[INFO] : Flight created with ID: 3
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@267110ae
+[INFO] : Flight created with ID: 4
+[INFO] : Creating Flight with data: com.hexaware.simplyfly.dto.FlightDTO@376fe365
+[INFO] : Flight created with ID: 5
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@5d2aef6e
+[INFO] : Route created with ID: 1
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@798e2b9d
+[INFO] : Route created with ID: 2
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@5758f329
+[INFO] : Route created with ID: 3
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@7961b7b6
+[INFO] : Route created with ID: 4
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@1bad8360
+[INFO] : Route created with ID: 5
+[INFO] : Creating Route with data: com.hexaware.simplyfly.dto.RouteDTO@20600f89
+[INFO] : Route created with ID: 6
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@31112515
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@6d5539cf
+[INFO] : Registering new admin: com.hexaware.simplyfly.dto.AdminDTO@6904b1e6
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@50ba2e2d
+[INFO] : Payment created with ID: 1
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@5ffe8a16
+[INFO] : Payment created with ID: 2
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@1374b4e8
+[INFO] : Payment created with ID: 3
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@540074f8
+[INFO] : Payment created with ID: 4
+[INFO] : Creating Payment with data: com.hexaware.simplyfly.dto.PaymentsDTO@7f629604
+[INFO] : Payment created with ID: 5
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 19004 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 58 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1433 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6630dd28
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.416 seconds (process running for 5.919)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 4 ms
+[INFO] : Init duration for springdoc-openapi is: 918 ms
+[INFO] : Creating booking with data: BookingDTO [booking_id=1, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=4, route_id=4, payment_id=1, cancellation_id=null]
+[INFO] : Booking created with ID: 1
+[INFO] : Creating booking with data: BookingDTO [booking_id=2, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=1, route_id=3, payment_id=1, cancellation_id=null]
+[INFO] : Booking created with ID: 2
+[INFO] : Creating booking with data: BookingDTO [booking_id=3, bookedAt=2025-06-01T08:57:11.193, status=CONFIRMED, totalFare=350.75, user_id=5, route_id=5, payment_id=5, cancellation_id=null]
+[INFO] : Booking created with ID: 3
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 11784 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 67 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1081 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea5ee0
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.741 seconds (process running for 5.255)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 2 ms
+[INFO] : Init duration for springdoc-openapi is: 873 ms
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 20196 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 62 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1128 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe08eaf
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 4.88 seconds (process running for 5.398)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 845 ms
+[WARN] : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m689ms11µs400ns).
+[WARN] : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m8s658ms756µs400ns).
+[INFO] : Creating cancellation with data: com.hexaware.simplyfly.dto.CancellationDTO@6f55c73f
+[INFO] : Cancellation created with ID: 1
+[INFO] : Fetching user with ID: 1
+[INFO] : User fetched: [FAILED toString()]
+[INFO] : Fetching FlightOwner with ID: 1
+[INFO] : FlightOwner fetched: com.hexaware.simplyfly.entities.FlightOwner@41ae8aba
+[WARN] : Deleting FlightOwner with ID: 8
+[INFO] : Fetching cancellation with ID: 1
+[INFO] : Cancellation fetched: com.hexaware.simplyfly.entities.Cancellation@4e7e0d9d
+[INFO] : Fetching booking with ID: 1
+[INFO] : Booking fetched: [FAILED toString()]
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.
+[INFO] : Starting SimplyFlyApplication using Java 21.0.6 with PID 9992 (C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly\target\classes started by RAVI in C:\Users\RAVI\Desktop\Java Full Stack\Java Angular\CaseStudy Project\SimplyFly)
+[INFO] : No active profile set, falling back to 1 default profile: "default"
+[INFO] : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO] : Finished Spring Data repository scanning in 63 ms. Found 8 JPA repository interfaces.
+[INFO] : Tomcat initialized with port 8080 (http)
+[INFO] : Starting service [Tomcat]
+[INFO] : Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO] : Initializing Spring embedded WebApplicationContext
+[INFO] : Root WebApplicationContext: initialization completed in 1333 ms
+[INFO] : HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO] : HHH000412: Hibernate ORM core version 6.5.3.Final
+[INFO] : HHH000026: Second-level cache disabled
+[INFO] : No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO] : HikariPool-1 - Starting...
+[INFO] : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fea5ee0
+[INFO] : HikariPool-1 - Start completed.
+[WARN] : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO] : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO] : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : Hibernate is in classpath; If applicable, HQL parser will be used.
+[WARN] : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO] : Tomcat started on port 8080 (http) with context path '/'
+[INFO] : Started SimplyFlyApplication in 5.53 seconds (process running for 6.151)
+[INFO] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO] : Initializing Servlet 'dispatcherServlet'
+[INFO] : Completed initialization in 1 ms
+[INFO] : Init duration for springdoc-openapi is: 800 ms
+[INFO] : Registering new admin: AdminDTO [admin_id=0, user_id=5]
+[INFO] : Application shutdown requested.
+[INFO] : Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO] : HikariPool-1 - Shutdown initiated...
+[INFO] : HikariPool-1 - Shutdown completed.

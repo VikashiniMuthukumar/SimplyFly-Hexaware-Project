@@ -41,12 +41,18 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public boolean deleteUser(Long userId) throws UserNotFoundException {
-        if (!userRepository.existsById(userId)) {
-            throw new UserNotFoundException("User not found with ID: " + userId);
-        }
-        userRepository.deleteById(userId);
-        return true;
+    	User user = userRepository.findById(userId)
+    		    .orElseThrow(() -> new UserNotFoundException("User not found with ID: " + userId));
+
+    		if (user.getFlightOwner() != null) {
+    		    user.getFlightOwner().setUser(null);   
+    		    user.setFlightOwner(null);             
+    		}
+
+    		userRepository.delete(user);
+    		return true;
     }
+
 
     @Override
     public User getUserById(Long userId) throws UserNotFoundException {
